@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="163px" height="146px" viewBox="0 0 163 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 51</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-139.000000, -6549.000000)" filter="url(#filter-1)" fill="#9012FE">
+            <g id="skills" sketch:type="MSLayerGroup" transform="translate(143.000000, 6289.000000)">
+                <g id="li" transform="translate(0.000000, 262.000000)" sketch:type="MSShapeGroup">
+                    <path d="M128.590909,78.6259796 C116.039529,80.3734141 99.8060733,81.6496298 81.5454545,82.2346784 L81.5454545,119.994319 C81.5454545,129.938582 73.4824885,138 63.5377281,138 L49.7304787,138 C44.2058606,138 39.7272727,133.525948 39.7272727,127.99206 L39.7272727,82.4136011 C6.23086604,81.6588543 7.85356976,78.3510791 7.85356976,69.7840909 C7.85356976,61.2171027 6.23086604,57.9093275 39.7272727,57.1545808 L39.7272727,10.0079403 C39.7272727,4.48070751 44.2025507,0 49.7304787,0 L63.5377281,0 C73.4831208,0 81.5454545,8.06656694 81.5454545,18.0056806 L81.5454545,57.3335034 C99.8060733,57.918552 116.039529,59.1947677 128.590909,60.9422022 L128.590909,44.9545455 L144.813206,44.9545455 L144.813206,63.9832758 C151.481883,65.7248023 155.241547,67.696093 155.241547,69.7840909 C155.241547,71.8720888 151.481883,73.8433795 144.813206,75.584906 L144.813206,93.9680509 L128.590909,93.9680509 L128.590909,78.6259796 Z M0,52.7954545 L5.23149916,52.7954545 L5.23149916,86.25 L0,86.25 L0,52.7954545 Z" id="Oval-51"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

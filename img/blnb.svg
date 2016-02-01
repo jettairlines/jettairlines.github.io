@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1518px" height="569px" viewBox="0 0 1518 569" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>BLN</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-3" d="M1074.10238,64.8248451 C963.205888,41.6201542 840.519142,26.8779221 717.774306,26.8779221 C321.358503,26.8779221 3.80006623e-14,60.6917099 0,276.63681 C2.66780523e-14,426.370032 154.503891,488.537508 381.402635,512.583618 C387.10715,532.331616 404.498047,549.063009 421.304764,550.533406 L532.66483,560.276149 C550.196495,561.809971 571.230362,547.103329 579.653511,527.428664 L580.806805,524.734816 C625.143903,525.923625 670.935167,526.395698 717.774306,526.395698 C1114.19011,526.395698 1510,372.630272 1510,276.63681 C1510,235.514249 1437.36204,183.789532 1323.1558,138.09306 L1346.63386,73.5876145 C1348.14601,69.4330133 1346.00657,64.8438304 1341.85674,63.3334137 L1170.36019,0.913775935 C1166.20281,-0.599386352 1159.98171,0.330170786 1156.44812,2.98386736 L1074.10238,64.8248451 L1074.10238,64.8248451 Z"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="BLN" sketch:type="MSLayerGroup" transform="translate(4.000000, 2.000000)">
+            <path d="M1143.84334,556.554963 C1147.50908,559.020741 1153.84009,559.796945 1157.99336,558.28528 L1351.45968,487.869298 C1355.60878,486.359147 1357.74763,481.77018 1356.23548,477.615579 L1325.98105,394.492209 C1324.46954,390.339387 1319.87984,388.197397 1315.71867,389.711938 L1050.76796,486.146111 C1046.61171,487.658862 1046.22249,490.889765 1049.8798,493.349875 L1143.84334,556.554963 Z" id="Rectangle-9-Copy" fill="#C8D6E3" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <mask id="mask-4" sketch:name="Mask" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask" fill="#C8D6E3" filter="url(#filter-2)" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+            <path d="M1391.58913,280 L1568,450 L1277.41087,450 L1101,280 L1391.58913,280 Z" id="Rectangle-9" fill="#AAB2C1" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+            <path d="M1101.4726,278.728047 C1101.4726,278.171741 1410.83178,277.620587 1410.83178,277.901315 L1410.83178,286.919589 C1410.83178,291.934561 1406.76436,296 1401.74078,296 L1110.5636,296 C1105.54278,296 1101.4726,291.932729 1101.4726,286.914183 L1101.4726,278.728047 Z" id="Rectangle-8" fill="#929BAD" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+        </g>
+    </g>
+</svg>

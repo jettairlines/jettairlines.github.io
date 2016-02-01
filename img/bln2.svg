@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="508px" height="614px" viewBox="0 0 508 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>ballon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-84.000000, -2543.000000)">
+            <g id="EDUCATION-+-University-of-Illino" sketch:type="MSLayerGroup" transform="translate(88.000000, 1960.000000)">
+                <g id="ballon-+-Social-Visualization" transform="translate(0.000000, 585.000000)" sketch:type="MSShapeGroup">
+                    <g id="ballon">
+                        <path d="M279.076739,492.3 L264.688249,534.3 M216.726619,492.3 L232.314149,534.9 M306.654676,492.3 L295.263789,534.9 M191.546763,492.9 L205.335731,534.3" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" filter="url(#filter-1)"></path>
+                        <path d="M208.617897,531.6 L291.942739,531.6 C294.593932,531.6 296.445307,533.74641 296.077683,536.395713 L287.08469,601.204287 C286.717164,603.852886 284.747733,606 282.685456,606 L217.875181,606 C215.813077,606 213.84357,603.85359 213.475946,601.204287 L204.482953,536.395713 C204.115427,533.747114 205.966483,531.6 208.617897,531.6 Z" id="Rectangle-26" fill="#795663" filter="url(#filter-2)"></path>
+                        <path d="M185.534831,492.00281 L314.178346,492.079019 C421.152432,463.724333 500,366.177451 500,250.2 C500,112.018356 388.071187,0 250,0 C111.928813,0 0,112.018356 0,250.2 C0,366.073773 78.706659,463.549914 185.534831,492.00281 Z" id="Oval-133" fill="#F6A623" filter="url(#filter-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

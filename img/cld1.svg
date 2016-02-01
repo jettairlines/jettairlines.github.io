@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1450px" height="481px" viewBox="0 0 1450 481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26 + comp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-26-+-comp" sketch:type="MSLayerGroup" transform="translate(4.000000, 2.000000)" filter="url(#filter-1)" fill="#FFFFFF">
+            <path d="M1332.01067,300.466402 C1332.03752,299.551349 1332.05101,298.633945 1332.05101,297.714286 C1332.05101,226.722026 1251.65377,169.171429 1152.47874,169.171429 C1149.96566,169.171429 1147.46463,169.208382 1144.97667,169.281572 C1117.28286,72.0328709 1017.11505,0 897.78802,0 C795.953681,0 708.073012,52.4616066 667.283089,128.286326 C644.422843,116.763748 616.568557,110 586.513407,110 C546.117579,110 509.697585,122.218634 484.035325,141.787918 C447.361476,126.607917 403.251151,117.754286 355.79431,117.754286 C228.371671,117.754286 125.075213,181.58313 125.075213,260.32 C125.075213,273.683449 128.050756,286.61746 133.614778,298.882857 L106.750212,298.882857 C104.758354,298.882857 102.796001,299.009534 100.870778,299.255273 C44.2972558,303.343944 0,340.593676 0,385.941429 C0,431.288096 44.2951349,468.537129 100.866715,472.627291 C102.793185,472.873224 104.756892,473 106.750212,473 L1343.39185,473 C1395.03047,473 1442,439.869071 1442,399 C1442,361.716383 1407.16145,330.872728 1361.84339,325.747841 C1356.20623,313.43984 1345.29947,304.050756 1332.01067,300.466402 Z" id="Rectangle-26" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

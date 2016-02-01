@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="50px" viewBox="0 0 60 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-1081.000000, -3334.000000)" filter="url(#filter-1)" fill="#795663">
+            <g id="EDUCATION-+-University-of-Illino" sketch:type="MSLayerGroup" transform="translate(88.000000, 1960.000000)">
+                <g id="ballon-+-Social-Visualization" transform="translate(882.000000, 1078.000000)" sketch:type="MSShapeGroup">
+                    <g id="ballon">
+                        <path d="M117.243258,298.257426 L164.07182,298.257426 C165.56179,298.257426 166.602263,299.461682 166.395658,300.94809 L161.341596,337.309336 C161.135046,338.795349 160.028226,340 158.869226,340 L122.445852,340 C121.286949,340 120.180086,338.795743 119.973482,337.309336 L114.91942,300.94809 C114.71287,299.462077 115.753163,298.257426 117.243258,298.257426 Z" id="Rectangle-26"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

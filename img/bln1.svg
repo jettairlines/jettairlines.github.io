@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="741px" height="896px" viewBox="0 0 741 896" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>ballon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-584.000000, -1958.000000)">
+            <g id="EDUCATION-+-University-of-Illino" sketch:type="MSLayerGroup" transform="translate(88.000000, 1960.000000)">
+                <g id="ballon-+-University-of-Illino-+-B.S-Computer-Enginee" transform="translate(500.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="ballon">
+                        <path d="M409.126499,721.390099 L388.032974,782.934653 M317.721223,721.390099 L340.572542,783.813861 M449.555755,721.390099 L432.856715,783.813861 M280.807554,722.269307 L301.022182,782.934653" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" filter="url(#filter-1)"></path>
+                        <path d="M305.833837,778.978218 L427.988056,778.978218 C431.874704,778.978218 434.58882,782.123453 434.049884,786.0056 L420.866156,880.972618 C420.327363,884.853734 417.440176,888 414.416878,888 L319.405016,888 C316.381971,888 313.494674,884.854765 312.955737,880.972618 L299.77201,786.0056 C299.233216,782.124484 301.946863,778.978218 305.833837,778.978218 Z" id="Rectangle-26" fill="#795663" filter="url(#filter-2)"></path>
+                        <path d="M271.994063,720.954612 L460.585456,721.066285 C617.409465,679.516845 733,536.576859 733,366.629703 C733,164.145709 568.912361,0 366.5,0 C164.087639,0 0,164.145709 0,366.629703 C0,536.424934 115.383962,679.26126 271.994063,720.954612 Z" id="Oval-133" fill="#7CC9BF" filter="url(#filter-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
