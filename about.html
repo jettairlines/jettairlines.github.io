@@ -50,7 +50,7 @@
   	<!-- profile -->
   	<div class="container-fluid relative">
   		<div class="thumb-bot flex vcenter">
-  			<h2 class="text-uppercase text-center">profile</h2>
+  			<h2 class="text-uppercase text-center">profile<a name="profile"></a></h2>
   		</div>
 	  	<div class="row"
   			data-bottom-top="-ms-transform: translateX(150%);
@@ -609,14 +609,14 @@
 			$(".star").css({top: '-80%', right: 0, position:'absolute'});
 
 			//$(".img-cloud").width( $(this).children('.cap-text').width*0.5 );
-			// function scrollToAnchor(aid){
-			// 	var aTag = $("a[name='"+ aid +"']");
-			// 	$('html,body').animate({scrollTop: aTag.offset().top},'slow');
-			// }
+			function scrollToAnchor(aid){
+				var aTag = $("a[name='"+ aid +"']");
+				$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+			}
 
-			// $("#toprofile").click(function() {
-			// 	scrollToAnchor('profile');
-			// });
+			$("#toprofile").click(function() {
+				scrollToAnchor('profile');
+			});
 
 			// $("#toeducation").click(function() {
 			// 	scrollToAnchor('education');
