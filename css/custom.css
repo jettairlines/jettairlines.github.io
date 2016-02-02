@@ -121,6 +121,13 @@ h1, h2, h3, h4 {
 		max-width: none;
 	}
 
+.hover-front {
+	position: relative;
+}
+	.hover-front : hover {
+		z-index: 3;
+	}
+
 #education {
 /*	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
