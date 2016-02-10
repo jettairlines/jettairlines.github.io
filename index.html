@@ -62,16 +62,16 @@
   			-webkit-transform: translateX(-100%);
   			transform: translateX(-100%);"
 		>
-			<a id="toeducation"><div id="blnb">
+			<div id="blnb">
 				<div class="thumb flex vcenter">
-					<img src="img/blnb.svg" alt="" class="img-responsive img-cloud">
+                    <img src="img/blnb.svg" alt="" id="img-bln" />
 					<div class="caption flex vcenter cap-blnb">
 						<div style="width:60%;max-width:40em;" class="cap-text">
 	  						<p>This is Jett, current student in Computer Engineering at UIUC. I love pretty and intuitive interfaces, and crave to please the user just like I would like to be pleased as a user myself.</p>
 						</div>
 					</div>
 				</div>
-			</div></a>
+			</div>
 		</div>
 	</div>
 
@@ -614,8 +614,10 @@
 		    });
 			//$(".star").css({top: '-100%', right: 0, position:'absolute'});
 
-			//$(".img-cloud").width( $(this).children('.cap-text').width*0.5 );
-
+            $("#img-bln").width( $("#img-bln").parents().find('.cap-text').width()*2 );
+            
+            //$("#img-bln").width( $("#img-bln").next('.cap-text').width()*.5 );
+            
 			function scrollToAnchor(aid){
 				var aTag = $("a[name='"+ aid +"']");
 				$('html,body').animate({scrollTop: aTag.offset().top},'slow');
