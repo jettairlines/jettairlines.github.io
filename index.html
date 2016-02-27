@@ -11,7 +11,7 @@
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
+	<link href="sass/custom.css" rel="stylesheet">
 
 	<!-- Font -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -29,99 +29,61 @@
   <body>
   <div style="overflow:hidden" id="skrollr-body"
    data-start="background:linear-gradient(top, rgb(234,226,222), rgb(199,229,109));" data-center="background:linear-gradient(top, rgb(124,201,191), rgb(43,130,173) );" data-end="background:linear-gradient(top, rgb(199,229,109),rgb(52,59,108));" style="height:100%">
-  	<!-- header -->
-  	<div class="container-fluid">
-  		<div class="vph flex vcenter">
-  			<div class="text-center flex vspread" style="height:70vh;">
-  				<div class="text-uppercase">
-  					<div class="col-xs-4"><h3>student</h3></div>
-  					<div class="col-xs-4"><h3>designer</h3></div>
-  					<div class="col-xs-4"><h3>developer</h3></div>
-  				</div>
-  				<div class="row flex vcenter">
-  					<div class="col-sm-4"><h1>Jett</h1></div>
-  					<div class="col-sm-4"><img src="img/logo.svg" class="img-responsive img-logo" alt="logo"></div>
-  					<div class="col-sm-4"><h1>Wang</h1></div>
-  				</div>
-  				<h1><a id="toprofile" href="#"><i class="text-negative fa fa-angle-double-down"></i></a></h1>
-  				<a name="profile"></a>
-  			</div>
-  		</div>
-  	</div>
 
+    <div class="container-fluid">
+        <div class="hero">
+            <div class="text-center vspread" style="height:70vh;">
+                <div class="text-uppercase">
+                    <div class="col-xs-4"><h3>student</h3></div>
+                    <div class="col-xs-4"><h3>designer</h3></div>
+                    <div class="col-xs-4"><h3>developer</h3></div>
+                </div>
+                <div class="row vcenter">
+                    <div class="col-sm-4"><h1>Jett</h1></div>
+                    <div class="col-sm-4"><img src="img/logo.svg" class="img-responsive" id='img-logo' alt="logo"></div>
+                    <div class="col-sm-4"><h1>Wang</h1></div>
+                </div>
+                <br>
+                <h1><a id="toprofile" href="#"><i class="text-negative fa fa-angle-double-down"></i></a></h1>
+                <a name="profile"></a>
+            </div>
+        </div>
+    </div>
+      	<!-- path -->
+<!--
+ 	<div class="path">
+		<svg xmlns="http://www.w3.org/1000/svg" version="1.1" viewBox="0 0 400 900" preserveAspectRatio="none" id="path">
+			<path style="fill:none;stroke:#333333;stroke-width:2;stroke-dasharray:6000;stroke-dashoffset:0"
+				data-center-top="stroke-dashoffset:6000;" data-bottom="stroke-dashoffset:0;"
+
+				d=""
+			/>
+		</svg>
+	</div>
+-->
+      
   	<!-- profile -->
   	<div class="container-fluid relative">
-  		<div class="thumb-bot flex vcenter">
+  		<div class="vcenter">
   			<h2 class="text-uppercase text-center">profile<a name="profile"></a></h2>
   		</div>
-	  	<div class="row"
-  			data-bottom-top="-ms-transform: translateX(100%);
-  			-webkit-transform: translateX(100%);
-  			transform: translateX(100%);" 
-  			data-top-bottom="translateX(-100%);
-  			-webkit-transform: translateX(-100%);
-  			transform: translateX(-100%);"
-		>
+	  	<div class="row">
 			<div id="blnb">
-				<div class="thumb flex vcenter">
-                    <img src="img/blnb.svg" alt="" id="img-bln" />
-					<div class="caption flex vcenter cap-blnb">
-						<div style="width:60%;max-width:40em;" class="cap-text">
-	  						<p>This is Jett, current student in Computer Engineering at UIUC. I love pretty and intuitive interfaces, and crave to please the user just like I would like to be pleased as a user myself.</p>
-						</div>
-					</div>
+				<div class="thumb blnb">
+                    <img src="img/blnb.svg" alt="" class="img-responsive" />
 				</div>
 			</div>
 		</div>
 	</div>
 
 	  <!-- education -->
-	  <div class="container">
+      <div class="container">
 	  	<div class="row">
-	  		<div class="col-xs-10 col-xs-offset-1 flex vph" id="education">
-	  			<h2 class="text-uppercase text-center" id="ed-title">education</h2>
-	  			<a name="education"></a>
-	  			<div class="thumb flex vcenter hover-front" id="bln1"
-	  			data-bottom-top="translateY(50%);
-	  			-webkit-transform: translateY(50%);
-	  			transform: translateY(50%);"
-	  			data-top-bottom="translateY(20%);
-	  			-webkit-transform: translateY(20%);
-	  			transform: translateY(20%);"	  		
-	  			>
-	  				<img src="img/bln1.svg" alt="" class="img-responsive">
-		  			<div class="caption flex vcenter cap-bln">
-		  				<div class="text-center">
-		  					<h5>University of Illinois at Urbana-Champaign</h5>
-		  					<p>B.S Computer Engineering<br>Expected May 1018<br>GPA: 3.58<br>James Scholar, sp14 - present</p>
-		  				</div>
-		  			</div>
-	  			</div>
-		  		<div class="thumb flex vcenter hover-front" id="bln2"
-		  		data-bottom-top="translateY(0);
-		  		-webkit-transform: translateY(0%);
-		  		transform: translateY(0%);"
-		  		data-top-bottom="translateY(-100%);
-		  		-webkit-transform: translateY(-100%);
-		  		transform: translateY(-100%);"	  		
-		  		>
-			  		<img src="img/bln2.svg" alt="" class="img-responsive">
-				  		<div class="caption flex vcenter cap-bln">
-				  			<div class="text-center">
-				  				<p><strong>Social Visualization<br>User Interface Design<br>Computer System Engineering<br>Engineering Entrepreneurship</strong><br>Heterogenous Parallel Programming<br>Data Structures</p>
-				  			</div>
-				  		</div>
-			  	</div>
-			  	<div class="" id="bln3" 
-			  	data-bottom-top="translateY(50%);
-			  	-webkit-transform: translateY(50%);
-			  	transform: translateY(50%);"
-			  	data-top-bottom="translateY(-150%);
-			  	-webkit-transform: translateY(-150%);
-			  	transform: translateY(-150%);"	  		
-			  	>
-			  		<img src="img/bln3.svg" alt="" class="img-responsive">
-			  	</div>
+	  		<div class="col-xs-10 col-xs-offset-1 vph">
+	  			<h2 class="text-uppercase text-center">education</h2>
+                <img src="img/bln1.svg" alt="" class="img-responsive" id="bln1">
+                <img src="img/bln2.svg" alt="" class="img-responsive"  id="bln2">
+                <img src="img/bln3.svg" alt="" class="img-responsive"  id="bln3">
 			</div>
 		</div>
 	</div>
@@ -129,349 +91,82 @@
 
 	<!-- experience -->
 	<div class="container relative">
-	<div class="star-row"><br><br><br><br><br><br><br><br><br></div>
+	<div class="star-row">
 		<div class="row">
 			<div class="col-xs-4 col-xs-offset-1">
 				<h2 class="text-uppercase text-center"><a name="experience"></a>experience</h2>
 			</div>
 		</div>
 
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(70%);
-		-webkit-transform: translateX(70%);
-		transform: translateX(70%);" 
-		data-center-top="translateX(40%);
-		-webkit-transform: translateX(40%);
-		transform: translateX(40%);"
-		data-top-bottom="translateX(0);
-		-webkit-transform: translateX(0);
-		transform: translateX(0);"
-		><a id="tocldsm">
+		<div class="row"><a id="tocldsm">
 			<div id="exp2">
-				<div class="thumb flex vcenter" id="">
+				<div class="thumb vcenter" id="">
 					<img src="img/cld1.svg" alt="" class="img-responsive img-cloud">
-					<div class="caption flex vcenter cap-cloud">
-						<div class="col-xs-3">
-							<div class="text-center">
-								<h5>YTTRO Mobile Inc.</h5>
-								<p><b>UI/UX Designer Intern</b><br>www.yttromobile.com<br>January 2016 - present<br>Mountain View, CA</p>
-							</div>
-						</div>
-						<div class="col-xs-5">
-							<p>Designed new product(app) features with team and created corresponding UI mock ups. Created infographic and print designs. Improved layout of current app website and planned information architecture for future renovation.</p>
-						</div>
-					</div>
 				</div>
 			</div></a>
 		</div>
 
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(-40%);
-		-webkit-transform: translateX(-40%);
-		transform: translateX(-40%);" 
-		data-center-top="translateX(-10%);
-		-webkit-transform: translateX(-10%);
-		transform: translateX(-10%);"
-		data-top-bottom="translateX(10%);
-		-webkit-transform: translateX(10%);
-		transform: translateX(10%);"
-		><a id="tocldsm2">
+		<div class="row"><a id="tocldsm2">
 			<div id="exp3">
-				<div class="thumb flex vcenter">
+				<div class="thumb vcenter">
 					<img src="img/cld2.svg" alt="" class="img-responsive img-cloud">
-					<div class="caption flex vcenter cap-cloud cap-cloud-right">
-						<div class="col-xs-3">
-							<div class="text-center">
-								<h5>Amino Capital</h5>
-								<p><b>Web Developer & Designer</b><br>www.aminocapital.com<br>December 2016<br>Palo Alto, CA</p>
-							</div>
-						</div>
-						<div class="col-xs-5">
-							<p>Designed and developed company website using webflow. Edited logo and designed prints.</p>
-						</div>
-					</div>
 				</div>
 			</div></a>
 		</div>
 
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(30%);
-		-webkit-transform: translateX(30%);
-		transform: translateX(30%);" 
-
-		data-top-bottom="translateX(-15%);
-		-webkit-transform: translateX(-15%);
-		transform: translateX(-15%);"
-		><a id="tocldsm3">
+		<div class="row"><a id="tocldsm3">
 			<div id="exp4">
-				<div class="thumb flex vcenter" id="">
+				<div class="thumb vcenter" id="">
 					<img src="img/cld1.svg" alt="" class="img-responsive img-cloud">
-					<div class="caption flex vcenter cap-cloud">
-						<div class="col-xs-3">
-							<div class="text-center">
-								<h5>EMC Center of Excellence Lab</h5>
-								<p><b>Software Engineer Intern</b><br>June - August 2015<br>Beijing, China</p>
-							</div>
-						</div>
-						<div class="col-xs-5">
-							<p>Researched and conducted tech talk on operating system virtualization. Prototyped Docker integration testing environment.</p>
-						</div>
-					</div>
 				</div>
 			</div></a>
 		</div>
 
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(-40%);
-		-webkit-transform: translateX(-40%);
-		transform: translateX(-40%);" 
-		data-center-top="translateX(-15%);
-		-webkit-transform: translateX(-15%);
-		transform: translateX(-15%);"
-		data-top-bottom="translateX(10%);
-		-webkit-transform: translateX(10%);
-		transform: translateX(10%);"
-		><a id="tocldsm4">
+		<div class="row"><a id="tocldsm4">
 			<div id="exp5">
-				<div class="thumb flex vcenter">
+				<div class="thumb vcenter">
 					<img src="img/cld2.svg" alt="" class="img-responsive img-cloud">
-					<div class="caption flex vcenter cap-cloud cap-cloud-right">
-						<div class="col-xs-3">
-							<div class="text-center">
-								<h5>Lenovo Research & Development Center</h5>
-								<p><b>Computer Engineer Intern</b><br>June - August 2014<br>Beijing, China</p>
-							</div>
-						</div>
-						<div class="col-xs-5">
-							<p>Designed assembly instruction set and developed execution simulator.</p>
-						</div>
-					</div><a name="cldsm"></a>
+					<a name="cldsm"></a>
 				</div>
 			</div></a>
 		</div>
 		
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(70%);
-		-webkit-transform: translateX(70%);
-		transform: translateX(70%);" 
-		data-center-top="translateX(50%);
-		-webkit-transform: translateX(50%);
-		transform: translateX(50%);"
-		data-top-bottom="translateX(-10%);
-		-webkit-transform: translateX(-10%);
-		transform: translateX(-10%);"
-		><a id="toskill">
+		<div class="row"><a id="toskill">
 			<div id="exp6">
-				<div class="thumb flex vcenter">
+				<div class="thumb vcenter">
 					<img src="img/cld3.svg" alt="" class="img-responsive img-sm-cloud">
-					<div class="caption flex vcenter">
-						<div class="col-md-5">
-							<div class="text-center">
-								<h5>Lucky Lincoln Gaming Inc.</h5>
-								<p><b>Part-time Graphic Designer</b><br>November 2015 - current<br>Champaign, IL</p>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div></a>
 		</div>
 
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(-50%);
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);" 
-		data-center-top="translateX(10%);
-		-webkit-transform: translateX(10%);
-		transform: translateX(10%);"
-		data-top-bottom="translateX(40%);
-		-webkit-transform: translateX(40%);
-		transform: translateX(40%);"
-		><a id="toskill2">
+		<div class="row"><a id="toskill2">
 			<div id="exp7">
-				<div class="thumb flex vcenter">
+				<div class="thumb vcenter">
 					<img src="img/cld3.svg" alt="" class="img-responsive img-sm-cloud">
-					<div class="caption flex vcenter">
-						<div class="col-md-5">
-							<div class="text-center">
-								<h5>Chinese Student & Scholar Association</h5>
-								<p><b>Web Master</b><br>September - December 2015<br>Champaign, IL</p>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div></a>
 		</div>
 
-		<div class="row"
-		data-bottom-top="-ms-transform: translateX(-40%);
-		-webkit-transform: translateX(-40%);
-		transform: translateX(-40%);" 
-		data-center-top="translateX(0%);
-		-webkit-transform: translateX(0%);
-		transform: translateX(0%);"
-		data-top-bottom="translateX(40%);
-		-webkit-transform: translateX(40%);
-		transform: translateX(40%);"
-		><a id="toskill3">
+		<div class="row"><a id="toskill3">
 			<div id="exp8">
-				<div class="thumb flex vcenter">
+				<div class="thumb vcenter">
 					<img src="img/cld3.svg" alt="" class="img-responsive img-sm-cloud">
-					<div class="caption flex vcenter">
-						<div class="col-md-5">
-							<div class="text-center">
-								<h5>Self Youth Community Inc.</h5>
-								<p><b>Technical Director & Web Designer</b><br>October - December 2015<br>-online-</p>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div></a>
 		</div>
 	</div>
 
 	<!-- skills -->
-	<div class="container">
-		<div class="row skill-r"><a name="skills" />
-			<h2 class="text-uppercase text-center" id="ed-title">skills</h2>
-		</div>
-		<a id="tohashtag"><div>
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(70%);
-					-webkit-transform: translateX(70%);
-					transform: translateX(70%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet1.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">HTML/CSS</h4></div>
-			</div>
+	<div class="container" id="skills">
+        <h2 class="text-uppercase text-center" id="ed-title">skills</h2>
 
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(40%);
-					-webkit-transform: translateX(40%);
-					transform: translateX(40%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-6"><img src="img/jet2.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">JavaScript</h4></div>
-			</div>
-
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(70%);
-					-webkit-transform: translateX(70%);
-					transform: translateX(70%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet3.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">C/C++</h4></div>
-			</div>
-
-			<div class="skillr"><br></div>
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(50%);
-					-webkit-transform: translateX(50%);
-					transform: translateX(50%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-4"><img src="img/jet4.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">Sketch</h4></div>
-			</div>
-
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(70%);
-					-webkit-transform: translateX(70%);
-					transform: translateX(70%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet5.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">Photoshop</h4></div>
-			</div>
-
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(40%);
-					-webkit-transform: translateX(40%);
-					transform: translateX(40%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-6"><img src="img/jet6.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">Illustrator</h4></div>
-			</div>
-
-			<div class="row"><h5 class="text-center text-uppercase"><br>in training</h5></div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-					<div class="row">
-						<div class="col-md-3 col-xs-4"><p class="text-center">BootStrapCSS</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">SkrollrJS</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">d3JS</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">Material Design</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">Pixate Studios</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">Sass</p></div>
-					</div>
-				</div>
-			</div>
-		</div></a>
 	</div>
 
 	<!-- hashtags -->
 	<div class="container-fuild relative">
 		<div id="ht"><h2 class="text-uppercase text-center"><br><a name="hashtag" />hashtag</h2></div>
 		<div class="star-row"><br><br><br></div>
-		<div class="row relative flex vcenter star-row"
+		<div class="row relative vcenter star-row"
 		 data-bottom-top="-ms-transform: translate(-80%,-20%) rotate(10deg);
 		     -webkit-transform: translate(-80%,-20%) rotate(10deg);
 		     transform: translate(-80%,-20%) rotate(10deg);"
@@ -479,7 +174,7 @@
 		     -webkit-transform: translate(-40%,0) rotate(10deg);
 		     transform: translate(-40%,0) rotate(10deg);"
 		     >		
-			<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-5 star-strip flex vcenter" id="ht1">
+			<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-5 star-strip vcenter" id="ht1">
 				<div class="row">
 					<div><h4 class="text-center">Digital Art</h4></div>
 				</div>
@@ -487,7 +182,7 @@
 			<div class="col-xs-2 col-md-1 star"><img src="img/star.svg" class="img-responsive"></div>
 		</div>
 
-		<div class="row relative flex vcenter star-row"
+		<div class="row relative vcenter star-row"
 		 data-bottom-top="-ms-transform: translate(-70%,-20%) rotate(10deg);
 		     -webkit-transform: translate(-70%,-20%) rotate(10deg);
 		     transform: translate(-70%,-20%) rotate(10deg);"
@@ -495,7 +190,7 @@
 		     -webkit-transform: translate(-30%,0) rotate(10deg);
 		     transform: translate(-30%,0) rotate(10deg);"
 		     >		
-			<div class="col-xs-9 col-xs-offset-1 col-md-6 col-md-offset-5 star-strip flex vcenter" id="ht2">
+			<div class="col-xs-9 col-xs-offset-1 col-md-6 col-md-offset-5 star-strip vcenter" id="ht2">
 				<div class="row">
 					<div><h4 class="text-center">Social Psychology</h4></div>
 				</div>
@@ -503,7 +198,7 @@
 			<div class="col-xs-2 col-md-1 star"><img src="img/star.svg" class="img-responsive"></div>
 		</div>
 
-		<div class="row relative flex vcenter star-row" 
+		<div class="row relative vcenter star-row" 
 		 data-bottom-top="-ms-transform: translate(-60%,-20%) rotate(10deg);
 		     -webkit-transform: translate(-60%,-20%) rotate(10deg);
 		     transform: translate(-60%,-20%) rotate(10deg);"
@@ -511,7 +206,7 @@
 		     -webkit-transform: translate(-20%,0) rotate(10deg);
 		     transform: translate(-20%,0) rotate(10deg);"
 		     >		
-			<div class="col-xs-10 star-strip col-md-6 col-md-offset-5 flex vcenter" id="ht3">
+			<div class="col-xs-10 star-strip col-md-6 col-md-offset-5 vcenter" id="ht3">
 				<div class="row">
 					<div><h4 class="text-center">Entrepernuership</h4></div>
 				</div>
@@ -565,9 +260,9 @@
 		</div>
 
 		<div class="footer">
-			<a href="http://www.jett.world"><div class="thumb vph flex" id="earth">
+			<a href="http://www.jett.world"><div class="thumb vph" id="earth">
 				<img src="img/earth.svg" class="img-responsive">
-				<div class="caption flex vcenter" style="flex-direction:column">
+				<div class="caption vcenter" style="direction:column">
 					<h1>Hello, World</h1>
 					<h2><br>This is Jett's</h2>
 				</div>
@@ -575,17 +270,7 @@
 		</div>
 	</div>
 
-	<!-- path -->
-<!-- 	<div>
-		<svg xmlns="http://www.w3.org/1000/svg" version="1.1" width="80%" viewBox="0 0 900 1200" preserveAspectRatio="none">
-			<path style="fill:none;stroke:#333333;stroke-width:5%;stroke-dasharray:6000;stroke-dashoffset:0"
-				data-center-top="stroke-dashoffset:6000;" data-bottom="stroke-dashoffset:0;"
 
-				d="M1216.58538,3.81707725 C1216.58538,3.81707725 764.495303,-48.7963618 383.793886,283.523505 C-151.039928,750.387809 29.414315,1492.79581 29.414315,1492.79581"
-			/>
-		</svg>
-	</div>
- -->
 
 </div>
 
@@ -594,66 +279,15 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="js/custom.js"></script>
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
 	<script type="text/javascript">
-		var s = skrollr.init();
+		var s = skrollr.init({
+            constants: {
+                box : '100p'
+            }  
+        });
 	</script>
-
-    <script type="text/javascript">
-		$(document).ready(function() {
-
-			if( $(window).width() <= 700  ){
-				//window.location.href = "http://www.jett.world/040.html";
-			}
-
-			$("body").height('100%');
-			//$(".star-strip").height($(".star").height()*.7); 
-			$("#flow").width($( window ).width());
-			$( window ).resize(function() {
-				location.reload();
-		    });
-			//$(".star").css({top: '-100%', right: 0, position:'absolute'});
-
-            $("#img-bln").width( $("#img-bln").parents().find('.cap-text').width()*2 );
-            
-            //$("#img-bln").width( $("#img-bln").next('.cap-text').width()*.5 );
-            
-			function scrollToAnchor(aid){
-				var aTag = $("a[name='"+ aid +"']");
-				$('html,body').animate({scrollTop: aTag.offset().top},'slow');
-			}
-
-			$("#toprofile").click(function() {
-				scrollToAnchor('profile');
-			});
-
-
-			// $("#toeducation").click(function() {
-			// 	scrollToAnchor('education');
-			// });
-
-			// $("#toexperience,#toexperience2").click(function() {
-			// 	scrollToAnchor('experience');
-			// });
-
-			// $("#tocldsm,#tocldsm2,#tocldsm3,#tocldsm4").click(function() {
-			// 	scrollToAnchor('cldsm');
-			// });
-
-			// $("#toskill,#toskill2,#toskill3").click(function() {
-			// 	scrollToAnchor('skills');
-			// });
-
-			// $("#tohashtag").click(function() {
-			// 	scrollToAnchor('hashtag');
-			// });
-
-			// $("#toend").click(function() {
-			// 	$("html, body").animate({ scrollTop: $(document).height() }, "slow");
- 		// 		return false;
-			// });
-		}); 
-   	</script>
 
 </body>
 </html>

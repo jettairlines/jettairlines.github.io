@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="508px" height="614px" viewBox="0 0 508 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="591px" height="758px" viewBox="0 0 591 758" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>ballon</title>
+    <title>bln2</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
+        <path id="path-1" d="M0.393483465,8.86808246 C-0.426040783,3.97037576 2.93976703,0 7.91367548,0 L114.756513,0 C119.729325,0 123.089756,3.96320559 122.259535,8.86808246 L109.532501,84.0583481 C108.703494,88.9560548 104.010752,92.9264305 99.0380884,92.9264305 L23.4521746,92.9264305 C18.4852777,92.9264305 13.7931712,88.9483739 12.9749322,84.0583481 L0.393483465,8.86808246 Z"></path>
+        <path id="path-3" d="M222.86501,620.613024 L369.112423,620.613024 C396.705402,592.494987 424.477847,562.925994 453.991895,532.022815 C522.847419,459.926483 588,379.606273 588,286.611608 C588,128.320388 456.371716,0 294,0 C131.628284,0 0,128.320388 0,286.611608 C0,419.348491 130.842659,527.792582 222.86501,620.613024 Z"></path>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-84.000000, -2543.000000)">
-            <g id="EDUCATION-+-University-of-Illino" sketch:type="MSLayerGroup" transform="translate(88.000000, 1960.000000)">
-                <g id="ballon-+-Social-Visualization" transform="translate(0.000000, 585.000000)" sketch:type="MSShapeGroup">
-                    <g id="ballon">
-                        <path d="M279.076739,492.3 L264.688249,534.3 M216.726619,492.3 L232.314149,534.9 M306.654676,492.3 L295.263789,534.9 M191.546763,492.9 L205.335731,534.3" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" filter="url(#filter-1)"></path>
-                        <path d="M208.617897,531.6 L291.942739,531.6 C294.593932,531.6 296.445307,533.74641 296.077683,536.395713 L287.08469,601.204287 C286.717164,603.852886 284.747733,606 282.685456,606 L217.875181,606 C215.813077,606 213.84357,603.85359 213.475946,601.204287 L204.482953,536.395713 C204.115427,533.747114 205.966483,531.6 208.617897,531.6 Z" id="Rectangle-26" fill="#795663" filter="url(#filter-2)"></path>
-                        <path d="M185.534831,492.00281 L314.178346,492.079019 C421.152432,463.724333 500,366.177451 500,250.2 C500,112.018356 388.071187,0 250,0 C111.928813,0 0,112.018356 0,250.2 C0,366.073773 78.706659,463.549914 185.534831,492.00281 Z" id="Oval-133" fill="#F6A623" filter="url(#filter-3)"></path>
-                    </g>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="bln2" sketch:type="MSArtboardGroup">
+            <g id="ballon-+-University-of-Illino-+-B.S-Computer-Enginee" sketch:type="MSLayerGroup">
+                <g id="Group" transform="translate(217.896458, 592.005450)" stroke-width="5" sketch:type="MSShapeGroup" stroke-linecap="square">
+                    <path d="M0.697941101,6.77249618 L23.731639,77.6573804" id="Line" stroke="#947882"></path>
+                    <path d="M44.8561588,0.391400627 L54.2079506,64.416124" id="Line-Copy" stroke="#947882"></path>
+                    <path d="M101.362411,0.363776837 L110.714203,64.3885002" id="Line-Copy" stroke="#795663" transform="translate(106.038307, 32.376139) scale(-1, 1) translate(-106.038307, -32.376139) "></path>
+                    <path d="M131.803828,6.77249618 L154.837526,77.6573804" id="Line" stroke="#795663" transform="translate(143.338124, 42.229869) scale(-1, 1) translate(-143.338124, -42.229869) "></path>
                 </g>
+                <g id="Rectangle-7" transform="translate(233.918256, 656.893733)">
+                    <mask id="mask-2" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#795663" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    <rect fill-opacity="0.2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="60.8828338" y="-18.4250681" width="66.4904632" height="114.555858"></rect>
+                </g>
+                <g id="Rectangle-6">
+                    <mask id="mask-4" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#F6A623" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                    <path d="M262.350125,620.844687 L326.761682,620.844687 C330.565655,627.820422 291.28327,737.912935 377.981277,620.844687 L451.814714,620.844687 L451.814714,552.752044 L426.268661,552.752044 C495.168366,450.187744 548.412935,340.898528 536.015391,231.799167 C516.099494,56.5377241 379.514171,-3.18496163e-08 345.815702,-3.18496163e-08 C335.804912,-3.18496163e-08 329.85186,-15.7565683 356.735654,22.1245675 C383.619447,60.0057033 450.389413,154.987557 450.389416,276.587516 C450.38942,398.916855 403.655783,493.898626 367.160836,552.752044 L326.649037,552.752044 C339.577321,480.271385 351.678474,361.156332 351.678474,253.394768 C351.678474,48.8539593 313.270735,-38.6911603 296.002725,-38.6911603 C278.734715,-38.6911603 240.326975,48.8539593 240.326975,253.394768 C240.326975,377.710172 250.990821,486.520713 263.136675,552.752044 L221.897055,552.752044 C185.406194,493.895216 138.696372,398.930681 138.696376,276.632515 C138.696379,155.032556 205.466345,60.0507022 232.350138,22.1695665 C259.233932,-15.7115693 253.28088,0.0449989318 243.27009,0.0449989318 C209.571621,0.0449989318 72.9862977,56.5827231 53.0704014,231.844166 C40.6746698,340.927572 93.9018537,450.200777 162.786903,552.752044 L140.190736,552.752044 L140.190736,620.844687 L211.071192,620.844687 C298.005433,738.246573 258.344312,627.375547 262.350125,620.844687 Z" fill="#EBF2DC" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                    <path d="M262.240503,-133.985619 C287.009033,-141.700858 312.937073,-145.798365 339.63744,-145.798365 C514.410823,-145.798365 656.092643,29.7657897 656.092643,246.33515 C656.092643,462.90451 503.325786,632.917949 328.552403,632.917949 C310.367059,632.917949 303.625021,636.5679 286.278545,632.917954 C325.195942,559.41375 339.723643,410.484517 339.723643,238.724796 C339.723643,85.5560221 304.460553,-52.3000542 262.240503,-133.985619 L262.240503,-133.985619 Z" id="Oval-10" fill-opacity="0.2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+            <g id="B.S-Computer-Enginee-+-University-of-Illino" sketch:type="MSLayerGroup" transform="translate(86.000000, 204.000000)" font-weight="normal" font-family="Open Sans" fill="#2A2B2E" font-size="24" sketch:alignment="middle">
+                <text id="Social-Visualization" sketch:type="MSTextLayer">
+                    <tspan x="101.908203" y="26">Social Visualization </tspan>
+                    <tspan x="87.2304688" y="71">User Interface Design </tspan>
+                    <tspan x="39.3007812" y="116">Engineering Entrepreneurship </tspan>
+                    <tspan x="3.4296875" y="161">Heterogenous Parallel Programming </tspan>
+                    <tspan x="120.294922" y="206">Data Structures </tspan>
+                </text>
             </g>
         </g>
     </g>

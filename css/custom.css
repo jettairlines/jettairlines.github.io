@@ -1,208 +1,93 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
-
-body { /*padding-top: 50px;*/
-	font-family: 'Open Sans', sans-serif;
-	color: #2A2B2E;
-}
-	strong{
-		font-weight: 300;
-	}
-
-a, a:hover {
-	color: inherit;
-	text-decoration: inherit;
-}
-
-.relative{
-	position: relative;
-}
-
-.vph {
-	height: 100vh;
-}
-
-.flex{
-	display: flex;
-	display: -webkit-flex;
-}
-	.vcenter {
-		align-items: center;
-		justify-content: center;
-	}
-	.vspread {
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-around;
-	}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2A2B2E; }
+  body strong {
+    font-weight: 300; }
 
 h1, h2, h3, h4 {
-	font-family: 'Roboto Condensed', 'Impact', sans-serif;
-}
-	h1 {
-		font-size: 5em;
-		font-weight: 700;
-	}
-	h2 {
-		color: #5A5A66;
-	}
-	h2, h4{
-		font-weight: 700;
-	}
-	h3 {
-		font-weight: 400;
-		color: #6C809A;
-	}
-	.text-negative{ 
-		color: #aaa;
-	}
-	h5 {
-		font-weight: 600;
-		font-size: 1.15em;
-	}
+  font-family: 'Roboto Condensed', 'Impact', sans-serif; }
 
+h1 {
+  font-size: 5em;
+  font-weight: 700; }
 
-.img-logo {
-	height: 20vh;
-	display: inline;
-}
+h2 {
+  color: #5A5A66; }
 
-#blnb{
-}
+h2, h4 {
+  font-weight: 700; }
 
-.overlay {
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+h3 {
+  font-weight: 400;
+  color: #6C809A; }
 
-.thumb-bot {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-}
+.text-negative {
+  color: #aaa; }
+
+h5 {
+  font-weight: 600;
+  font-size: 1.15em; }
+
+a, a:hover {
+  color: inherit;
+  text-decoration: inherit; }
+
+.relative {
+  position: relative; }
+
+.vph, .hero {
+  height: 100vh; }
+
+.flex, .vcenter, .hero, .vspread {
+  display: flex;
+  display: -webkit-flex; }
+
+.vcenter, .hero {
+  align-items: center;
+  justify-content: center; }
+
+.vspread {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
 
 .thumb {
-    position: relative;
-    background-color: transparent;
-}
+  position: relative;
+  background-color: transparent; }
 
 .caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
-}
-	.cap-cloud{
-		top:20%;
-	}
-	.cap-cloud-right {
-		flex-direction: row-reverse;
-	}
-	.cap-blnb {
-		left: -10%;
-	}
-	.cap-bln {
-		top: -5%;
-	}
+.hero #img-logo {
+  height: 20vh; }
 
-.img-cloud{
-/*	width: 120%;
-    max-width: 75em;
-    max-width: none;*/
-}
-	.img-sm-cloud{
-		width: 50%;
-		max-width: none;
-	}
+.blnb img {
+  height: 40vh; }
+.blnb .caption {
+  left: auto;
+  right: 0%; }
 
-.hover-front {
-	position: relative;
-}
-	.hover-front : hover {
-		z-index: 3;
-	}
+#bln1 {
+  width: 55%; }
 
-#education {
-/*	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-    justify-content: center;*/
-    justify-content: center;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
-}
-	#ed-title{
-		align-self: center;
-	}
-	#bln1{
-		max-width: 65%;
-	}
-	#bln2{
-		max-width: 50%;
-	}
-	#bln3{
-		max-width: 30%;
-	}
+#bln2 {
+  width: 45%; }
 
-.abs {
-	position: absolute;
-}
-	#exp2 {
+#bln3 {
+  width: 35%; }
 
-	}
-	#exp3 {
-		transform: translateY(-20%);
-	}
-	#exp4 {
-		transform: translateY(-15%);
-	}
-	#exp5 {
-		transform: translateY(-25%);
-	}
-	#exp6 {
-		transform: translateY(-35%);
-	}
-	#exp7 {
-		transform: translateY(-35%);
-	}
-	#exp8{
-		transform: translateY(-55%);
-	}
+#skills img {
+  fill: #aaa; }
 
-.cld-bar {
-	overflow: hidden;
-}
-	.skill-r {
-		margin-top: 7vh;
-		margin-bottom: 7vh;
-	}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
-.star-row {
-	margin: 5% 0 5% 0;
-	position: relative;
-	z-index: 1;
-}
-.star-strip {
-	background-color: green;
-}
-	#ht{ position: absolute; right: 15%; top: 10%; }
-	#ht1{ background-color: #D0021B; }
-	#ht2{ background-color: #F5A623; }
-	#ht3{ background-color: #7ED321; }
-
-.footer{ 
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-	#earth{
-		justify-content: center;
-	}
+/*# sourceMappingURL=custom.css.map */

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1518px" height="569px" viewBox="0 0 1518 569" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="2563px" height="574px" viewBox="0 0 2563 574" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>BLN</title>
+    <title>blnb</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+        <path id="path-1" d="M2.99533756,23.7121567 C-3.33791057,10.818931 3.1777636,0.366906475 17.5366618,0.366906475 L249.750226,0.366906475 C264.114426,0.366906475 268.823679,9.7055532 260.253708,21.2454608 L225.441832,68.1214457 C216.878545,79.6523528 198.293435,89 183.945437,89 L61.0564028,89 C46.7018638,89 29.9321845,78.5501859 23.5978506,65.6547498 L2.99533756,23.7121567 Z"></path>
+        <path id="path-3" d="M632.087201,491.505122 C1034.10234,491.505122 1360,342.471952 1360,245.752561 C1360,149.03317 1034.10234,0 632.087201,0 C230.072062,0 2.87540321e-14,103.506133 0,245.752561 C2.87540321e-14,387.998989 230.072062,491.505122 632.087201,491.505122 Z"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
@@ -13,26 +15,46 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <path id="path-3" d="M1074.10238,64.8248451 C963.205888,41.6201542 840.519142,26.8779221 717.774306,26.8779221 C321.358503,26.8779221 3.80006623e-14,60.6917099 0,276.63681 C2.66780523e-14,426.370032 154.503891,488.537508 381.402635,512.583618 C387.10715,532.331616 404.498047,549.063009 421.304764,550.533406 L532.66483,560.276149 C550.196495,561.809971 571.230362,547.103329 579.653511,527.428664 L580.806805,524.734816 C625.143903,525.923625 670.935167,526.395698 717.774306,526.395698 C1114.19011,526.395698 1510,372.630272 1510,276.63681 C1510,235.514249 1437.36204,183.789532 1323.1558,138.09306 L1346.63386,73.5876145 C1348.14601,69.4330133 1346.00657,64.8438304 1341.85674,63.3334137 L1170.36019,0.913775935 C1166.20281,-0.599386352 1159.98171,0.330170786 1156.44812,2.98386736 L1074.10238,64.8248451 L1074.10238,64.8248451 Z"></path>
     </defs>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="BLN" sketch:type="MSLayerGroup" transform="translate(4.000000, 2.000000)">
-            <path d="M1143.84334,556.554963 C1147.50908,559.020741 1153.84009,559.796945 1157.99336,558.28528 L1351.45968,487.869298 C1355.60878,486.359147 1357.74763,481.77018 1356.23548,477.615579 L1325.98105,394.492209 C1324.46954,390.339387 1319.87984,388.197397 1315.71867,389.711938 L1050.76796,486.146111 C1046.61171,487.658862 1046.22249,490.889765 1049.8798,493.349875 L1143.84334,556.554963 Z" id="Rectangle-9-Copy" fill="#C8D6E3" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
-            <mask id="mask-4" sketch:name="Mask" fill="white">
-                <use xlink:href="#path-3"></use>
-            </mask>
-            <use id="Mask" fill="#C8D6E3" filter="url(#filter-2)" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
-            <path d="M1391.58913,280 L1568,450 L1277.41087,450 L1101,280 L1391.58913,280 Z" id="Rectangle-9" fill="#AAB2C1" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
-            <path d="M1101.4726,278.728047 C1101.4726,278.171741 1410.83178,277.620587 1410.83178,277.901315 L1410.83178,286.919589 C1410.83178,291.934561 1406.76436,296 1401.74078,296 L1110.5636,296 C1105.54278,296 1101.4726,291.932729 1101.4726,286.914183 L1101.4726,278.728047 Z" id="Rectangle-8" fill="#929BAD" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+        <g id="blnb" sketch:type="MSArtboardGroup">
+            <g id="Line-+-Group-+-Rectangle-7" sketch:type="MSLayerGroup">
+                <path d="M1501.26451,50.3762123 L1502.15547,49.1587346 L1499.67955,47.40631 L1498.78859,48.6237877 L1355.35511,244.623788 L1354.46416,245.841265 L1355.35511,247.376212 L1498.78859,443.376212 L1499.67955,444.59369 L1502.15547,442.841265 L1501.26451,441.623788 L1358.10635,246 L1501.26451,50.3762123 Z" id="Line" stroke="#795663" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <g id="Group">
+                    <g id="Path-37" transform="translate(539.000000, 471.000000)">
+                        <mask id="mask-2" sketch:name="Mask" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#D5D5D5" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                        <circle id="Oval-5" stroke="#B7B7B7" stroke-width="5" fill="#E5E5E5" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="95.5" cy="53.5" r="17.5"></circle>
+                        <circle id="Oval-5-Copy" stroke="#B3B3B3" stroke-width="5" fill="#E5E5E5" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="170.5" cy="53.5" r="17.5"></circle>
+                        <path d="M18.3230791,16.4156265 L164.234177,89.2600882 C180.540263,97.4007167 204.517427,93.8652316 217.786191,81.3656985 L307.30074,-2.95941925 L18.3230791,16.4156265 Z" fill-opacity="0.2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M1006.2601,381.86394 C1006.2601,381.86394 1084.26934,328.576945 1110.51097,320.935385 C1136.75261,313.293825 1341.08702,375.501702 1341.08701,390.44193 C1336.40312,406.047647 1306.93514,482.352633 1306.93514,482.352633 L1006.2601,381.86394 Z" id="Path-30" fill="#D5D5D5" sketch:type="MSShapeGroup" transform="translate(1173.673555, 401.320201) scale(1, -1) translate(-1173.673555, -401.320201) "></path>
+                    <path d="M1006.2601,68.62653 C1006.2601,68.62653 1084.26934,15.3395351 1110.51097,7.69797497 C1136.75261,0.0564148001 1341.08702,62.2642922 1341.08701,77.2045203 C1336.40312,92.8102366 1306.93514,169.115223 1306.93514,169.115223 L1006.2601,68.62653 Z" id="Path-30" fill="#E5E5E5" sketch:type="MSShapeGroup"></path>
+                    <path d="M1041.67667,54.9844097 C1041.67667,54.9844097 1074.42462,46.7280048 1090.87815,46.7280048 C1107.33168,46.7280048 1315.76556,118.172353 1315.76557,126.036729 C1315.76557,133.901105 1295.4179,162.181572 1295.4179,162.181572 L1041.67667,54.9844097 Z" id="Path-34" fill-opacity="0.1" fill="#000000" sketch:type="MSShapeGroup"></path>
+                    <g id="Path-+-Path-Copy-3-+-Path-Copy-2-+-Path-Copy-+-Path-37-Mask">
+                        <mask id="mask-4" sketch:name="Mask" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#E5E5E5" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                        <path d="M733.865861,311.726619 C1202.3613,311.726619 1322.15376,257.371354 1331.75697,270.750807 C1341.49111,284.312658 1023.37316,402.054107 655.898348,402.051792 C288.423537,402.049478 3.48697833,284.312657 13.2211144,270.750807 C22.8243328,257.371354 265.370426,311.726619 733.865861,311.726619 Z" id="Path" fill-opacity="0.15" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                        <path d="M625.444416,208.368673 C156.948982,208.368673 21.8120805,239.356697 12.2088623,225.977245 C2.47472623,212.415394 325.586329,145.236985 693.061141,145.239299 C1060.53595,145.241613 1340.47886,212.415394 1330.74472,225.977245 C1321.1415,239.356697 1093.93985,208.368673 625.444416,208.368673 L625.444416,208.368673 Z" id="Path-Copy-3" fill-opacity="0.1" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                        <path d="M772.931692,262.938219 C1242.84465,262.938219 1327.82911,243.124741 1337.43233,254.250018 C1347.16646,265.526962 1063.7836,301.011168 696.308785,301.009243 C328.833973,301.007319 -1.74001413,265.526962 7.99412197,254.250018 C17.5973403,243.124741 303.018732,262.938218 772.931692,262.938219 Z" id="Path-Copy-2" fill-opacity="0.2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                        <path d="M658.933226,411.376788 C1111.06089,411.376777 1314.07525,272.479268 1323.4505,285.85872 C1332.95356,299.420571 1104.57701,475.126418 629.147576,482.41267 C153.718144,489.698921 7.70464249,299.420571 17.2077029,285.85872 C26.5829533,272.479268 206.805562,411.376798 658.933226,411.376788 Z" id="Path-Copy" fill-opacity="0.1" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                        <path d="M1015.84945,251.165291 L1099.91292,406.388932 C1108.59135,422.413692 1128.71044,428.529008 1144.8341,420.056317 L1476.50561,245.76895 L1317.49356,245.76895 L1015.84945,251.165291 Z" id="Path-37" fill-opacity="0.2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                    </g>
+                    <path d="M1162.14548,254.820144 C1248.2386,254.820144 1318.03086,250.53625 1318.03086,245.251799 C1318.03086,239.967347 1248.2386,235.683453 1162.14548,235.683453 C1076.05236,235.683453 1006.2601,235.683453 1006.2601,245.251799 C1006.2601,254.820144 1076.05236,254.820144 1162.14548,254.820144 Z" id="Oval-3" stroke="#E5E5E5" stroke-width="2" fill="#B3B3B3" sketch:type="MSShapeGroup"></path>
+                </g>
+                <path d="M1494,52.9981475 C1494,47.4763231 1498.47657,43 1504.00492,43 L2563,43 L2414.875,246 L2563,449 L1504.00492,449 C1498.47936,449 1494,444.527151 1494,439.001852 L1494,52.9981475 Z" id="Rectangle-7" fill="#B8E986" filter="url(#filter-5)" sketch:type="MSShapeGroup"></path>
+            </g>
+            <text id="Hi-I'm-Jett.-I'd-lik" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" fill="#2A2B2E">
+                <tspan x="1589" y="180">Hi I'm Jett. I'd like to think I'm pretty cool, but then I realize there </tspan>
+                <tspan x="1589" y="213">are way more people way cooler than me, thought that does not </tspan>
+                <tspan x="1589" y="246">stop be from trying to be cool.</tspan>
+                <tspan x="1589" y="291">I love pretty and intuitive interfaces, and making sense out of </tspan>
+                <tspan x="1589" y="324">messes such as people's daily lives.</tspan>
+            </text>
         </g>
     </g>
 </svg>
