@@ -70,18 +70,26 @@ a, a:hover {
     justify-content: space-around;
 }
 
+.canvas {
+    position: relative;
+    
+    img {
+        position: absolute;
+    }
+}
 
 .thumb {
     position: relative;
-    background-color: transparent;
+    @extend .vcenter;
 }
 
 .caption {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
+
 }
 
 
@@ -96,13 +104,12 @@ a, a:hover {
     }
 }
 
-.blnb{
+#profile{
+    @extend .thumb;
+    height: 80vh;
+    
     img {
-        height: 40vh;
-    }
-    .caption {
-        left: auto;
-        right: 0%;
+        height: 50vh;
     }
 }
 
@@ -110,15 +117,18 @@ a, a:hover {
 // individual assets ============
 
 #bln1 {
-    width: 55%;
+    width: 45%;
+    max-width: 35em;
 }
 
 #bln2 {
-    width: 45%;
+    width: 35%;
+    max-width: 30em;
 }
 
 #bln3 {
-    width: 35%;
+    width: 25%;
+    max-width: 25em;
 }
 
 
@@ -129,44 +139,55 @@ a, a:hover {
 }
 
 
-//
-//.cld-bar {
-//	overflow: hidden;
-//}
-//	.skill-r {
-//		margin-top: 7vh;
-//		margin-bottom: 7vh;
-//	}
-//
-//.star-row {
-//	margin: 5% 0 5% 0;
-//	position: relative;
-//	z-index: 1;
-//}
-//.star-strip {
-//	background-color: green;
-//}
-//	#ht{ position: absolute; right: 15%; top: 10%; }
-//	#ht1{ background-color: #D0021B; }
-//	#ht2{ background-color: #F5A623; }
-//	#ht3{ background-color: #7ED321; }
-
-.footer{ 
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+#education {
+    @extend .canvas;
+    height: 100vw;
 }
-//	#earth{
-//		justify-content: center;
-//	}
-//
-//.path {
-//    position: absolute;
-//    left: 0;
-//    width: 100%;
-//}
-//
-//#path{
-//    width: 100%;
-//    height: 4000px;
-//}
+
+
+#experience{
+    @extend .canvas;
+    height: 200vw;
+
+    .cld {
+        width: 80%;
+        max-width: 60em;
+    }
+    
+    .cld-sm {
+        width: 45%;
+        max-width: 30em;
+    }
+}
+
+#hashtags {
+    img {
+        max-width: 30%;
+        float: left;
+        clear: both;
+    }
+}
+
+
+.cld-bar {
+	overflow: hidden;
+}
+	.skill-r {
+		margin-top: 3vh;
+		margin-bottom: 3vh;
+	}
+
+#footer{
+    position: relative;
+    height: 80vw;
+    
+    #earth, svg {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    svg {
+        bottom: 10%;
+    }
+}

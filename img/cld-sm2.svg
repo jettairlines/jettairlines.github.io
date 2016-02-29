@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="884px" height="493px" viewBox="0 0 884 493" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>cld-sm2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="cld-sm2" sketch:type="MSArtboardGroup">
+            <path d="M81.2180106,236.229034 C78.5404517,226.00974 77.1324675,215.415795 77.1324675,204.558176 C77.1324675,119.904907 162.721087,51.2798742 268.3,51.2798742 C274.956388,51.2798742 281.533317,51.5526498 288.014348,52.08502 C308.120345,23.0330121 341.695868,4 379.72013,4 C419.39634,4 454.228868,24.7226987 473.969394,55.9274696 C508.9225,24.1297604 560.661856,4 618.396753,4 C723.663302,4 808.998701,70.9179429 808.998701,153.465409 C808.998701,187.413088 794.56619,218.717395 770.250262,243.811039 C834.583133,262.538323 878,298.048272 878,338.772013 C878,398.99797 783.042212,447.820755 665.905844,447.820755 C619.705738,447.820755 576.955768,440.225804 542.12134,427.331801 C505.520543,464.703749 446.159795,489 379.154545,489 C290.059025,489 214.479351,446.043059 187.951005,386.508003 C170.284983,393.497014 149.832948,397.490566 128.035065,397.490566 C61.1892444,397.490566 7,359.934578 7,313.606918 C7,278.782509 37.6196275,248.914531 81.2180106,236.229034 L81.2180106,236.229034 L81.2180106,236.229034 Z" id="Oval-32" fill="#FAFAFA" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <text id="Dank-It-" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#2A2B2E">
+                <tspan x="403.047617" y="173">Dank It </tspan>
+                <tspan x="298.498789" y="218" font-weight="526">Best First Time Project at </tspan>
+                <tspan x="365.436289" y="251" font-weight="526">Hack@Brown </tspan>
+                <tspan x="526.463632" y="251"></tspan>
+                <tspan x="362.108164" y="296">February 2016 </tspan>
+                <tspan x="357.754648" y="341">UI/UX Designer </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

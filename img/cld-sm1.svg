@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="884px" height="493px" viewBox="0 0 884 493" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>cld-sm1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="cld-sm1" sketch:type="MSArtboardGroup">
+            <path d="M739.101439,389.883356 C748.221352,391.409501 757.800377,392.222649 767.68,392.222649 C829.160338,392.222649 879,360.733486 879,321.889635 C879,283.045785 829.160338,251.556622 767.68,251.556622 C765.768679,251.556622 763.868608,251.587056 761.980936,251.647198 C765.689001,242.004273 767.68,231.79027 767.68,221.216891 C767.68,162.316411 705.895295,114.568138 629.68,114.568138 C603.357304,114.568138 578.755923,120.263668 557.826702,130.147083 C536.959148,59.1053792 468.497214,7 387.26,7 C299.816253,7 227.17442,67.3712323 212.759382,146.746707 C136.617919,146.808823 74.92,191.034468 74.92,245.580614 C74.92,257.412156 77.8228532,268.758124 83.1463077,279.273136 C37.4206415,289.462461 5,314.992092 5,344.87428 C5,383.718131 59.782438,415.207294 127.36,415.207294 C141.296075,415.207294 154.687999,413.86812 167.167529,411.401438 C187.989643,454.269042 262.774657,486 351.84,486 C419.10446,486 478.223902,467.901732 512.10486,440.57631 C536.139914,449.986798 567.219027,455.660269 601.16,455.660269 C677.375295,455.660269 739.16,427.052467 739.16,391.762956 C739.16,391.134261 739.14039,390.507686 739.101439,389.883356 L739.101439,389.883356 Z" id="Oval-18" fill="#FAFAFA" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <text id="Nerf-font-2.0-" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#2A2B2E">
+                <tspan x="317.189453" y="226">Nerf font 2.0 </tspan>
+                <tspan x="254.136719" y="271">February 2016 - present </tspan>
+                <tspan x="291.296875" y="316">Graphic Designer </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

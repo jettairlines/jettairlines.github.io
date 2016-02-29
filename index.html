@@ -11,7 +11,7 @@
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="sass/custom.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 
 	<!-- Font -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -44,8 +44,7 @@
                     <div class="col-sm-4"><h1>Wang</h1></div>
                 </div>
                 <br>
-                <h1><a id="toprofile" href="#"><i class="text-negative fa fa-angle-double-down"></i></a></h1>
-                <a name="profile"></a>
+                <h1><a id="toprofile"><i class="text-negative fa fa-angle-double-down"></i></a></h1>
             </div>
         </div>
     </div>
@@ -63,213 +62,227 @@
 -->
       
   	<!-- profile -->
-  	<div class="container-fluid relative">
-  		<div class="vcenter">
-  			<h2 class="text-uppercase text-center">profile<a name="profile"></a></h2>
-  		</div>
-	  	<div class="row">
-			<div id="blnb">
-				<div class="thumb blnb">
-                    <img src="img/blnb.svg" alt="" class="img-responsive" />
-				</div>
-			</div>
-		</div>
+  	<div class="thumb" id="profile">
+        <div class="caption">
+            <h2 class="text-uppercase text-center"><br><br>profile<a name="profile_an"></a></h2>
+        </div>
+        <div class="caption">
+            <img src="img/blnb.svg" alt="" id="blnb"/>
+        </div>
 	</div>
 
 	  <!-- education -->
-      <div class="container">
-	  	<div class="row">
-	  		<div class="col-xs-10 col-xs-offset-1 vph">
-	  			<h2 class="text-uppercase text-center">education</h2>
-                <img src="img/bln1.svg" alt="" class="img-responsive" id="bln1">
-                <img src="img/bln2.svg" alt="" class="img-responsive"  id="bln2">
-                <img src="img/bln3.svg" alt="" class="img-responsive"  id="bln3">
-			</div>
+      <div id="education">
+        <h2 class="text-uppercase text-center">education</h2>
+        <img src="img/bln1.svg" alt="" class="img-responsive" id="bln1">
+        <img src="img/bln2.svg" alt="" class="img-responsive" id="bln2">
+        <img src="img/bln3.svg" alt="" class="img-responsive" id="bln3">
+      </div>
+	
+	  <!-- exp -->
+      <div id="experience">
+          <h2 class="text-uppercase text-center">experience</h2>
+          <img src="img/cld1.svg" alt="" class="cld" id="cld1" />
+          <img src="img/cld2.svg" alt="" class="cld" id="cld2" />
+          <img src="img/cld3.svg" alt="" class="cld" id="cld3" />
+          <img src="img/cld4.svg" alt="" class="cld" id="cld4" />
+          <img src="img/cld5.svg" alt="" class="cld" id="cld5" />
+          
+          <img src="img/cld-sm1.svg" alt="" class="cld-sm" id="cld-sm1" />
+          <img src="img/cld-sm2.svg" alt="" class="cld-sm" id="cld-sm2" />
+          <img src="img/cld-sm3.svg" alt="" class="cld-sm" id="cld-sm3" />
+          <img src="img/cld-sm4.svg" alt="" class="cld-sm" id="cld-sm4" />
+      </div>
+      
+      
+      	<!-- skills -->
+	<div class="container">
+		<div class="row skill-r"><a name="skills" />
+			<h2 class="text-uppercase text-center" id="ed-title">skills</h2>
 		</div>
+		<a id="tohashtag"><div>
+			<div class="row flex vcenter skill-r">
+				<div class="col-xs-8 cld-bar">
+					<div class="row"
+					data-bottom-top="-ms-transform: translateX(70%);
+					-webkit-transform: translateX(70%);
+					transform: translateX(70%);" 
+					data-center-top="translateX(0);
+					-webkit-transform: translateX(0);
+					transform: translateX(0);"
+					>
+						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet1.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+					</div>
+				</div>
+				<div class="col-xs-4"><h4 class="text-center">HTML/CSS</h4></div>
+			</div>
+
+			<div class="row flex vcenter skill-r">
+				<div class="col-xs-8 cld-bar">
+					<div class="row"
+					data-bottom-top="-ms-transform: translateX(40%);
+					-webkit-transform: translateX(40%);
+					transform: translateX(40%);" 
+					data-center-top="translateX(0);
+					-webkit-transform: translateX(0);
+					transform: translateX(0);"
+					>
+						<div class="col-xs-2 col-xs-offset-6"><img src="img/jet2.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+					</div>
+				</div>
+				<div class="col-xs-4"><h4 class="text-center">JavaScript</h4></div>
+			</div>
+
+			<div class="row flex vcenter skill-r">
+				<div class="col-xs-8 cld-bar">
+					<div class="row"
+					data-bottom-top="-ms-transform: translateX(70%);
+					-webkit-transform: translateX(70%);
+					transform: translateX(70%);" 
+					data-center-top="translateX(0);
+					-webkit-transform: translateX(0);
+					transform: translateX(0);"
+					>
+						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet3.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+					</div>
+				</div>
+				<div class="col-xs-4"><h4 class="text-center">C/C++</h4></div>
+			</div>
+
+			<div class="skillr"><br></div>
+			<div class="row flex vcenter skill-r">
+				<div class="col-xs-8 cld-bar">
+					<div class="row"
+					data-bottom-top="-ms-transform: translateX(50%);
+					-webkit-transform: translateX(50%);
+					transform: translateX(50%);" 
+					data-center-top="translateX(0);
+					-webkit-transform: translateX(0);
+					transform: translateX(0);"
+					>
+						<div class="col-xs-2 col-xs-offset-4"><img src="img/jet4.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+					</div>
+				</div>
+				<div class="col-xs-4"><h4 class="text-center">Sketch</h4></div>
+			</div>
+
+			<div class="row flex vcenter skill-r">
+				<div class="col-xs-8 cld-bar">
+					<div class="row"
+					data-bottom-top="-ms-transform: translateX(70%);
+					-webkit-transform: translateX(70%);
+					transform: translateX(70%);" 
+					data-center-top="translateX(0);
+					-webkit-transform: translateX(0);
+					transform: translateX(0);"
+					>
+						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet5.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+					</div>
+				</div>
+				<div class="col-xs-4"><h4 class="text-center">Photoshop</h4></div>
+			</div>
+
+			<div class="row vcenter skill-r">
+				<div class="col-xs-8 cld-bar">
+					<div class="row"
+					data-bottom-top="-ms-transform: translateX(40%);
+					-webkit-transform: translateX(40%);
+					transform: translateX(40%);" 
+					data-center-top="translateX(0);
+					-webkit-transform: translateX(0);
+					transform: translateX(0);"
+					>
+						<div class="col-xs-2 col-xs-offset-6"><img src="img/jet6.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
+					</div>
+				</div>
+				<div class="col-xs-4"><h4 class="text-center">Illustrator</h4></div>
+			</div>
+
+			<div class="row"><h5 class="text-center text-uppercase"><br>in training</h5></div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+					<div class="row">
+						<div class="col-md-3 col-xs-4"><p class="text-center">BootStrapCSS</p></div>
+						<div class="col-md-3 col-xs-4"><p class="text-center">SkrollrJS</p></div>
+						<div class="col-md-3 col-xs-4"><p class="text-center">d3JS</p></div>
+						<div class="col-md-3 col-xs-4"><p class="text-center">Material Design</p></div>
+						<div class="col-md-3 col-xs-4"><p class="text-center">Pixate Studios</p></div>
+						<div class="col-md-3 col-xs-4"><p class="text-center">Sass</p></div>
+					</div>
+				</div>
+			</div>
+		</div></a>
 	</div>
 
-
-	<!-- experience -->
-	<div class="container relative">
-	<div class="star-row">
-		<div class="row">
-			<div class="col-xs-4 col-xs-offset-1">
-				<h2 class="text-uppercase text-center"><a name="experience"></a>experience</h2>
-			</div>
-		</div>
-
-		<div class="row"><a id="tocldsm">
-			<div id="exp2">
-				<div class="thumb vcenter" id="">
-					<img src="img/cld1.svg" alt="" class="img-responsive img-cloud">
-				</div>
-			</div></a>
-		</div>
-
-		<div class="row"><a id="tocldsm2">
-			<div id="exp3">
-				<div class="thumb vcenter">
-					<img src="img/cld2.svg" alt="" class="img-responsive img-cloud">
-				</div>
-			</div></a>
-		</div>
-
-		<div class="row"><a id="tocldsm3">
-			<div id="exp4">
-				<div class="thumb vcenter" id="">
-					<img src="img/cld1.svg" alt="" class="img-responsive img-cloud">
-				</div>
-			</div></a>
-		</div>
-
-		<div class="row"><a id="tocldsm4">
-			<div id="exp5">
-				<div class="thumb vcenter">
-					<img src="img/cld2.svg" alt="" class="img-responsive img-cloud">
-					<a name="cldsm"></a>
-				</div>
-			</div></a>
-		</div>
-		
-		<div class="row"><a id="toskill">
-			<div id="exp6">
-				<div class="thumb vcenter">
-					<img src="img/cld3.svg" alt="" class="img-responsive img-sm-cloud">
-				</div>
-			</div></a>
-		</div>
-
-		<div class="row"><a id="toskill2">
-			<div id="exp7">
-				<div class="thumb vcenter">
-					<img src="img/cld3.svg" alt="" class="img-responsive img-sm-cloud">
-				</div>
-			</div></a>
-		</div>
-
-		<div class="row"><a id="toskill3">
-			<div id="exp8">
-				<div class="thumb vcenter">
-					<img src="img/cld3.svg" alt="" class="img-responsive img-sm-cloud">
-				</div>
-			</div></a>
-		</div>
-	</div>
-
-	<!-- skills -->
-	<div class="container" id="skills">
+<!--
+	<div id="skills">
         <h2 class="text-uppercase text-center" id="ed-title">skills</h2>
-
 	</div>
+-->
+      
+      <div id="hashtags">
+          <img src="img/star1.svg" />
+          <img src="img/star2.svg" />
+          <img src="img/star3.svg" />
+      </div>
 
-	<!-- hashtags -->
-	<div class="container-fuild relative">
-		<div id="ht"><h2 class="text-uppercase text-center"><br><a name="hashtag" />hashtag</h2></div>
-		<div class="star-row"><br><br><br></div>
-		<div class="row relative vcenter star-row"
-		 data-bottom-top="-ms-transform: translate(-80%,-20%) rotate(10deg);
-		     -webkit-transform: translate(-80%,-20%) rotate(10deg);
-		     transform: translate(-80%,-20%) rotate(10deg);"
-		 data-center-top="-ms-transform: translate(-40%,0) rotate(10deg);
-		     -webkit-transform: translate(-40%,0) rotate(10deg);
-		     transform: translate(-40%,0) rotate(10deg);"
-		     >		
-			<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-5 star-strip vcenter" id="ht1">
-				<div class="row">
-					<div><h4 class="text-center">Digital Art</h4></div>
-				</div>
-			</div>
-			<div class="col-xs-2 col-md-1 star"><img src="img/star.svg" class="img-responsive"></div>
-		</div>
-
-		<div class="row relative vcenter star-row"
-		 data-bottom-top="-ms-transform: translate(-70%,-20%) rotate(10deg);
-		     -webkit-transform: translate(-70%,-20%) rotate(10deg);
-		     transform: translate(-70%,-20%) rotate(10deg);"
-		 data-center-top="-ms-transform: translate(-30%,0) rotate(10deg);
-		     -webkit-transform: translate(-30%,0) rotate(10deg);
-		     transform: translate(-30%,0) rotate(10deg);"
-		     >		
-			<div class="col-xs-9 col-xs-offset-1 col-md-6 col-md-offset-5 star-strip vcenter" id="ht2">
-				<div class="row">
-					<div><h4 class="text-center">Social Psychology</h4></div>
-				</div>
-			</div>
-			<div class="col-xs-2 col-md-1 star"><img src="img/star.svg" class="img-responsive"></div>
-		</div>
-
-		<div class="row relative vcenter star-row" 
-		 data-bottom-top="-ms-transform: translate(-60%,-20%) rotate(10deg);
-		     -webkit-transform: translate(-60%,-20%) rotate(10deg);
-		     transform: translate(-60%,-20%) rotate(10deg);"
-		 data-center-top="-ms-transform: translate(-20%,0) rotate(10deg);
-		     -webkit-transform: translate(-20%,0) rotate(10deg);
-		     transform: translate(-20%,0) rotate(10deg);"
-		     >		
-			<div class="col-xs-10 star-strip col-md-6 col-md-offset-5 vcenter" id="ht3">
-				<div class="row">
-					<div><h4 class="text-center">Entrepernuership</h4></div>
-				</div>
-			</div>
-			<div class="col-xs-2 col-md-1 star"><img src="img/star.svg" class="img-responsive"></div>
-		</div>
-	</div>
 
 	<!-- path -->
 	<div class="relative">
 		<div class="container-fluid" style="padding-right:0">
 			<div class="row">
-				<svg class="pull-right" xmlns="http://www.w3.org/1000/svg" version="1.1" height="100%" width="80%" viewBox="0 0 1145 1484" preserveAspectRatio="none" style="overflow:visible;">
-					<path style="fill:none;stroke:#FF2828;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1216.58538,3.81707725 C1216.58538,3.81707725 764.495303,-48.7963618 383.793886,283.523505 C-151.039928,750.387809 29.414315,1492.79581 29.414315,1492.79581"
-					></path>
-					<path style="fill:none;stroke:#F6A623;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1216.67095,38.8060418 C1216.67095,38.8060418 756.870254,-19.6321793 391.146918,324.901238 C-136.439268,821.919213 57.1950447,1459.99999 57.1950447,1459.99999"
-					></path>
-					<path style="fill:none;stroke:#F8E81C;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1279.03202,78.5127525 C1279.03202,78.5127525 799.083814,-6.39633068 425.69037,338.137087 C-112.960581,835.155062 110.377755,1523.86355 110.377755,1523.86355"
-					></path>
-					<path style="fill:none;stroke:#7ED321;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1323.81019,106.675605 C1323.81019,106.675605 824.291644,19.086212 447.507256,363.296846 C-78.3947816,843.733613 145.465941,1523.86355 145.465941,1523.86355" 
-					></path>
-					<path style="fill:none;stroke:#50E3C2;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1224.36055,132.030975 C1224.36055,132.030975 905.886798,86.9660579 561.485658,312.158236 C-28.6179024,698.006859 156.85024,1496.65106 156.85024,1496.65106"
-					></path>
-					<path style="fill:none;stroke:#4990E2;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1223.77513,167.424558 C1223.77513,167.424558 858.910367,116.206102 502.590814,391.879228 C2.81230541,778.541993 197.396854,1523.98395 197.396854,1523.98395"
-					></path>
-					<path style="fill:none;stroke:#9012FE;stroke-width:5%;stroke-dasharray:8000;stroke-dashoffset:0"
-						data-center-top="stroke-dashoffset:8000;" data-bottom="stroke-dashoffset:0;"
-
-						d="M1185.38994,195.076686 C1185.38994,195.076686 886.433936,170.32475 572.247846,383.479612 C29.7856406,751.504998 227.355383,1514.47169 227.355383,1514.47169"
-					></path>
-				</svg>
+				
 			</div>
 		</div>
 
-		<div class="footer">
-			<a href="http://www.jett.world"><div class="thumb vph" id="earth">
-				<img src="img/earth.svg" class="img-responsive">
-				<div class="caption vcenter" style="direction:column">
-					<h1>Hello, World</h1>
-					<h2><br>This is Jett's</h2>
-				</div>
-			</div></a>
+		<div id="footer">
+            <svg class="img-responsive" xmlns="http://www.w3.org/1000/svg" version="1.1" height="100%" width="80%" viewBox="0 0 1196 1468"  style="overflow:visible;">
+					    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                            <g id="rainbow" sketch:type="MSArtboardGroup" stroke-width="50">
+                                <g id="Group" sketch:type="MSLayerGroup" transform="translate(30.000000, 30.000000)">
+                                    <path d="M0,1438 C0,643.81453 521.942749,0 1165.79176,0 L1165.79176,0" id="Oval-18" stroke="#D0011B" sketch:type="MSShapeGroup"></path>
+                                    <path d="M49,1437.984 C49,669.212465 549.158828,46 1166.13601,46 L1166.13601,46" id="Oval-18" stroke="#F6A623" sketch:type="MSShapeGroup"></path>
+                                    <path d="M98,1438.00933 C98,695.18119 575.939228,93 1165.50714,93 L1165.50714,93" id="Oval-18" stroke="#F8E81C" sketch:type="MSShapeGroup"></path>
+                                    <path d="M148,1438.076 C148,721.720706 603.719629,141 1165.87828,141 L1165.87828,141" id="Oval-18" stroke="#7ED321" sketch:type="MSShapeGroup"></path>
+                                    <path d="M197,1438.14267 C197,748.260222 630.935708,189 1166.22253,189 L1166.22253,189" id="Oval-18" stroke="#50E3C2" sketch:type="MSShapeGroup"></path>
+                                    <path d="M245,1438.20933 C245,774.799737 657.151786,237 1165.56678,237 L1165.56678,237" id="Oval-18" stroke="#4990E2" sketch:type="MSShapeGroup"></path>
+                                    <path d="M294,1438.276 C294,801.339253 684.367865,285 1165.91103,285 L1165.91103,285" id="Oval-18" stroke="#BD0FE1" sketch:type="MSShapeGroup"></path>
+                                </g>
+                            </g>
+                        </g>
+				</svg>
+			<a href="http://www.jett.world">
+                <div class="thumb" id="earth">
+                    <img src="img/earth.svg" class="img-responsive">
+                    <div class="caption vcenter">
+                        <div class="text-center">
+                            <h1>Hello, World</h1>
+                            <h2>This is Jett's</h2>
+                        </div>
+                    </div>
+                </div>
+            </a>
 		</div>
 	</div>
-
 
 
 </div>
@@ -287,6 +300,13 @@
                 box : '100p'
             }  
         });
+        
+        $(document).ready(function(){
+             $("#toprofile").click(function() {
+                scrollToAnchor('profile_an');
+            });             
+        });
+        
 	</script>
 
 </body>

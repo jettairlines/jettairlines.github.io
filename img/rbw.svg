@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1145px" height="1484px" viewBox="0 0 1145 1484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="1196px" height="1468px" viewBox="0 0 1196 1468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+    <title>rainbow</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="A4" sketch:type="MSArtboardGroup" transform="translate(-67.000000, -99.000000)" stroke-width="50">
-            <g id="Group" sketch:type="MSLayerGroup" transform="translate(92.000000, 123.000000)">
-                <path d="M1216.58538,3.81707725 C1216.58538,3.81707725 764.495303,-48.7963618 383.793886,283.523505 C-151.039928,750.387809 29.414315,1492.79581 29.414315,1492.79581" id="Path-12" stroke="#FF2828" sketch:type="MSShapeGroup"></path>
-                <path d="M1216.67095,38.8060418 C1216.67095,38.8060418 756.870254,-19.6321793 391.146918,324.901238 C-136.439268,821.919213 57.1950447,1459.99999 57.1950447,1459.99999" id="Path-12-Copy" stroke="#F6A623" sketch:type="MSShapeGroup"></path>
-                <path d="M1279.03202,78.5127525 C1279.03202,78.5127525 799.083814,-6.39633068 425.69037,338.137087 C-112.960581,835.155062 110.377755,1523.86355 110.377755,1523.86355" id="Path-12-Copy-2" stroke="#F8E81C" sketch:type="MSShapeGroup"></path>
-                <path d="M1323.81019,106.675605 C1323.81019,106.675605 824.291644,19.086212 447.507256,363.296846 C-78.3947816,843.733613 145.465941,1523.86355 145.465941,1523.86355" id="Path-12-Copy-3" stroke="#7ED321" sketch:type="MSShapeGroup"></path>
-                <path d="M1224.36055,132.030975 C1224.36055,132.030975 905.886798,86.9660579 561.485658,312.158236 C-28.6179024,698.006859 156.85024,1496.65106 156.85024,1496.65106" id="Path-12-Copy-4" stroke="#50E3C2" sketch:type="MSShapeGroup"></path>
-                <path d="M1223.77513,167.424558 C1223.77513,167.424558 858.910367,116.206102 502.590814,391.879228 C2.81230541,778.541993 197.396854,1523.98395 197.396854,1523.98395" id="Path-12-Copy-5" stroke="#4990E2" sketch:type="MSShapeGroup"></path>
-                <path d="M1185.38994,195.076686 C1185.38994,195.076686 886.433936,170.32475 572.247846,383.479612 C29.7856406,751.504998 227.355383,1514.47169 227.355383,1514.47169" id="Path-12-Copy-6" stroke="#9012FE" sketch:type="MSShapeGroup"></path>
+        <g id="rainbow" sketch:type="MSArtboardGroup" stroke-width="50">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(30.000000, 30.000000)">
+                <path d="M0,1438 C0,643.81453 521.942749,0 1165.79176,0 L1165.79176,0" id="Oval-18" stroke="#D0011B" sketch:type="MSShapeGroup"></path>
+                <path d="M49,1437.984 C49,669.212465 549.158828,46 1166.13601,46 L1166.13601,46" id="Oval-18" stroke="#F6A623" sketch:type="MSShapeGroup"></path>
+                <path d="M98,1438.00933 C98,695.18119 575.939228,93 1165.50714,93 L1165.50714,93" id="Oval-18" stroke="#F8E81C" sketch:type="MSShapeGroup"></path>
+                <path d="M148,1438.076 C148,721.720706 603.719629,141 1165.87828,141 L1165.87828,141" id="Oval-18" stroke="#7ED321" sketch:type="MSShapeGroup"></path>
+                <path d="M197,1438.14267 C197,748.260222 630.935708,189 1166.22253,189 L1166.22253,189" id="Oval-18" stroke="#50E3C2" sketch:type="MSShapeGroup"></path>
+                <path d="M245,1438.20933 C245,774.799737 657.151786,237 1165.56678,237 L1165.56678,237" id="Oval-18" stroke="#4990E2" sketch:type="MSShapeGroup"></path>
+                <path d="M294,1438.276 C294,801.339253 684.367865,285 1165.91103,285 L1165.91103,285" id="Oval-18" stroke="#BD0FE1" sketch:type="MSShapeGroup"></path>
             </g>
         </g>
     </g>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="879px" height="368px" viewBox="0 0 879 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="1454px" height="493px" viewBox="0 0 1454 493" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval 32</title>
+    <title>cld3</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
@@ -15,6 +15,27 @@
         </filter>
     </defs>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M800.781989,174.37619 C803.459548,166.790735 804.867532,158.927188 804.867532,150.867925 C804.867532,88.0325087 719.278913,37.0943396 613.7,37.0943396 C607.043612,37.0943396 600.466683,37.2968122 593.985652,37.6919736 C573.879655,16.1275966 540.304132,2 502.27987,2 C462.60366,2 427.771132,17.3817969 408.030606,40.5441011 C373.0775,16.9416778 321.338144,2 263.603247,2 C158.336698,2 73.0012987,51.6710504 73.0012987,112.943396 C73.0012987,138.141674 87.4338102,161.37786 111.749738,180.00407 C47.4168669,193.904735 4,220.262635 4,250.490566 C4,295.194369 98.957788,331.433962 216.094156,331.433962 C262.294262,331.433962 305.044232,325.796473 339.87866,316.225667 C376.479457,343.965669 435.840205,362 502.845455,362 C591.940975,362 667.520649,330.114435 694.048995,285.923466 C711.715017,291.111186 732.167052,294.075472 753.964935,294.075472 C820.810756,294.075472 875,266.198862 875,231.811321 C875,205.962274 844.380373,183.792229 800.781989,174.37619 L800.781989,174.37619 Z" id="Oval-32" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+        <g id="cld3" sketch:type="MSArtboardGroup">
+            <path d="M1338.01067,310.183521 C1338.03752,309.251058 1338.05101,308.316198 1338.05101,307.37904 C1338.05101,235.035976 1257.65377,176.390335 1158.47874,176.390335 C1155.96566,176.390335 1153.46463,176.427992 1150.97667,176.502575 C1123.28286,77.4034752 1023.11505,4 903.78802,4 C801.953681,4 714.073012,57.459819 673.283089,134.727292 C650.422843,122.985468 622.568557,116.093023 592.513407,116.093023 C552.117579,116.093023 515.697585,128.544147 490.035325,148.485785 C453.361476,133.016948 409.251151,123.994854 361.79431,123.994854 C234.371671,123.994854 131.075213,189.0382 131.075213,269.273235 C131.075213,282.890957 134.050756,296.071069 139.614778,308.569846 L112.750212,308.569846 C110.758354,308.569846 108.796001,308.698933 106.870778,308.949348 C50.2972558,313.115816 6,351.074316 6,397.284923 C6,443.494423 50.2951349,481.452212 106.866715,485.620199 C108.793185,485.870811 110.756892,486 112.750212,486 L1349.39185,486 C1401.03047,486 1448,452.238673 1448,410.591966 C1448,372.598936 1413.16145,341.168403 1367.84339,335.946002 C1362.20623,323.403811 1351.29947,313.836077 1338.01067,310.183521 Z" id="Rectangle-26" fill="#FAFAFA" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <g id="comp" sketch:type="MSLayerGroup" transform="translate(285.000000, 211.000000)" font-family="Open Sans" fill="#2A2B2E" font-size="24" sketch:alignment="middle">
+                <text id="www.aminocapital.com" sketch:type="MSTextLayer" font-weight="normal">
+                    <tspan x="658.783203" y="58">www.aminocapital.com </tspan>
+                    <tspan x="700.865234" y="103">December 2016 </tspan>
+                    <tspan x="718.865234" y="148">Palo Alto, CA </tspan>
+                </text>
+                <g id="Designed-release-1.2-+-YTTRO-Mobile-Inc.-+-UI/UX-Designer-Inter" sketch:type="MSTextLayer">
+                    <text id="Designed-and-develop" font-weight="normal">
+                        <tspan x="25.109375" y="113">Designed and developed company website </tspan>
+                        <tspan x="36.7988281" y="146">using webflow. Edited logo and designed </tspan>
+                        <tspan x="228.693359" y="179">prints. </tspan>
+                    </text>
+                    <text id="Amino-Capital" font-weight="526">
+                        <tspan x="183.771484" y="26">Amino Capital</tspan>
+                        <tspan x="110.441406" y="59">Web Developer &amp; Designer</tspan>
+                        <tspan x="265" y="92"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
     </g>
 </svg>
