@@ -57,7 +57,7 @@ $(document).ready(function(){
     setAni("#bln2",0,0,0,-120);
     setAni("#bln3",0,0,0,-220);
     
-    setAni("#cld1",10,0,-20,0);
+    setAni("#cld1",0,0,-30,0);
     setAni("#cld2",-20,0,40,0);
     setAni("#cld3",10,0,-30,0);
     setAni("#cld4",20,0,-40,0);
@@ -68,7 +68,7 @@ $(document).ready(function(){
     setAni("#cld-sm3",50,0,-40,0);
     setAni("#cld-sm4",-20,0,40,0);
     
-    setAni("#hashtags img",-100,-100,400,300);
+    setAni("#hashtags img",-100,-100,300,300);
     
     
     s.refresh();
