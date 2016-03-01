@@ -1,9 +1,9 @@
-# jettairlines.github.io
+# [jettairlines.github.io]
 My github page
 
 **WARNING: This is not devpost, but I shall document here anyway just becasue I can.**
 
-jettairlines.github.io is a product of my curiosity in parallax scrolling & vector art.
+[jettairlines.github.io] is a product of my curiosity in parallax scrolling & vector art.
 
 ### Version
 **v2.0**
@@ -35,3 +35,4 @@ License
 Copyright (c) 2016 Jett Wang Licensed under the WTFPL license.
 
    [SkrollrJS]: https://github.com/Prinzhorn/skrollr
+   [jettairlines.github.io] : jettairlines.github.io
