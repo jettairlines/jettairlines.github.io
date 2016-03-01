@@ -68,7 +68,7 @@ $(document).ready(function(){
     setAni("#cld-sm3",50,0,-40,0);
     setAni("#cld-sm4",-20,0,40,0);
     
-    setAni("#hashtags img",-100,-100,300,300);
+    setAni("#hashtags img",-100,-50,400,300);
     
     
     s.refresh();
