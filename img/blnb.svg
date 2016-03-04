@@ -16,7 +16,7 @@
             </feMerge>
         </filter>
     </defs>
-    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="blnb" sketch:type="MSArtboardGroup">
             <g id="Line-+-Group-+-Rectangle-7" sketch:type="MSLayerGroup">
                 <path d="M1501.26451,50.3762123 L1502.15547,49.1587346 L1499.67955,47.40631 L1498.78859,48.6237877 L1355.35511,244.623788 L1354.46416,245.841265 L1355.35511,247.376212 L1498.78859,443.376212 L1499.67955,444.59369 L1502.15547,442.841265 L1501.26451,441.623788 L1358.10635,246 L1501.26451,50.3762123 Z" id="Line" stroke="#795663" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
@@ -48,12 +48,10 @@
                 </g>
                 <path d="M1494,52.9981475 C1494,47.4763231 1498.47657,43 1504.00492,43 L2563,43 L2414.875,246 L2563,449 L1504.00492,449 C1498.47936,449 1494,444.527151 1494,439.001852 L1494,52.9981475 Z" id="Rectangle-7" fill="#B8E986" filter="url(#filter-5)" sketch:type="MSShapeGroup"></path>
             </g>
-            <text id="Hi-I'm-Jett.-I'd-lik" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" fill="#2A2B2E">
-                <tspan x="1589" y="180">Hi I'm Jett. I'd like to think I'm pretty cool, but then I realize there </tspan>
-                <tspan x="1589" y="213">are way more people way cooler than me, thought that does not </tspan>
-                <tspan x="1589" y="246">stop be from trying to be cool.</tspan>
-                <tspan x="1589" y="291">I love pretty and intuitive interfaces, and making sense out of </tspan>
-                <tspan x="1589" y="324">messes such as people's daily lives.</tspan>
+            <text id="Hi,-I'm-Jett.-I'd-li" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" fill="#2A2B2E">
+                <tspan x="1639" y="217">Hi, I'm Jett. I'd like to think I'm pretty cool.</tspan>
+                <tspan x="1639" y="262">I love pretty and intuitive interfaces, designing random stuff, </tspan>
+                <tspan x="1639" y="295">and making sense out of messes such as people's daily lives.</tspan>
             </text>
         </g>
     </g>

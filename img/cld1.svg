@@ -14,21 +14,23 @@
             </feMerge>
         </filter>
     </defs>
-    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="cld1" sketch:type="MSArtboardGroup">
             <path d="M1338.01067,310.183521 C1338.03752,309.251058 1338.05101,308.316198 1338.05101,307.37904 C1338.05101,235.035976 1257.65377,176.390335 1158.47874,176.390335 C1155.96566,176.390335 1153.46463,176.427992 1150.97667,176.502575 C1123.28286,77.4034752 1023.11505,4 903.78802,4 C801.953681,4 714.073012,57.459819 673.283089,134.727292 C650.422843,122.985468 622.568557,116.093023 592.513407,116.093023 C552.117579,116.093023 515.697585,128.544147 490.035325,148.485785 C453.361476,133.016948 409.251151,123.994854 361.79431,123.994854 C234.371671,123.994854 131.075213,189.0382 131.075213,269.273235 C131.075213,282.890957 134.050756,296.071069 139.614778,308.569846 L112.750212,308.569846 C110.758354,308.569846 108.796001,308.698933 106.870778,308.949348 C50.2972558,313.115816 6,351.074316 6,397.284923 C6,443.494423 50.2951349,481.452212 106.866715,485.620199 C108.793185,485.870811 110.756892,486 112.750212,486 L1349.39185,486 C1401.03047,486 1448,452.238673 1448,410.591966 C1448,372.598936 1413.16145,341.168403 1367.84339,335.946002 C1362.20623,323.403811 1351.29947,313.836077 1338.01067,310.183521 Z" id="Rectangle-26" fill="#FAFAFA" filter="url(#filter-1)" sketch:type="MSShapeGroup" transform="translate(727.000000, 245.000000) scale(-1, 1) translate(-727.000000, -245.000000) "></path>
-            <g id="comp" sketch:type="MSLayerGroup" transform="translate(285.000000, 224.000000)" font-family="Open Sans" fill="#2A2B2E" font-size="24" sketch:alignment="middle">
+            <g id="comp" sketch:type="MSLayerGroup" transform="translate(285.000000, 224.000000)" font-size="24" font-family="Open Sans" fill="#2A2B2E">
                 <text id="www.yttromobile.com-" sketch:type="MSTextLayer" font-weight="normal">
-                    <tspan x="665.755859" y="41">www.yttromobile.com </tspan>
-                    <tspan x="663.570312" y="86">January 2016 - present </tspan>
-                    <tspan x="684.792969" y="131">Mountain View, CA</tspan>
+                    <tspan x="633" y="41">www.yttromobile.com </tspan>
+                    <tspan x="633" y="86">January 2016 - present </tspan>
+                    <tspan x="633" y="131">Mountain View, CA</tspan>
                 </text>
                 <g id="Designed-release-1.2-+-YTTRO-Mobile-Inc.-+-UI/UX-Designer-Inter" sketch:type="MSTextLayer">
                     <text id="Designed-release-1.2" font-weight="normal">
-                        <tspan x="8.62695312" y="113">Designed release 1.20 features with team and </tspan>
-                        <tspan x="62.0410156" y="146">created corresponding UI mock ups. </tspan>
+                        <tspan x="0" y="113">Designed release 1.20 user account feature </tspan>
+                        <tspan x="0" y="146">with team and created corresponding UI mock </tspan>
+                        <tspan x="0" y="179">ups. </tspan>
+                        <tspan x="0" y="224"></tspan>
                     </text>
-                    <text id="YTTRO-Mobile-Inc." font-weight="526">
+                    <text id="YTTRO-Mobile-Inc." font-weight="526" sketch:alignment="middle">
                         <tspan x="160.960938" y="26">YTTRO Mobile Inc.</tspan>
                         <tspan x="138.15625" y="59">UI/UX Designer Intern</tspan>
                     </text>
