@@ -1,0 +1,48 @@
+<script src = "../assets/projects/content.js"></script>
+<script type="text/javascript">
+	
+	$.each(content,function(i,e){
+		var handle = e[0];
+		var ico = "<img src='../assets/projects/"+handle+"/logo.png' alt='"+handle+"'>";
+		$("<li><a href='#"+handle+"'>"+ico+"</a></li>").appendTo("#horizontalTab>ul");
+		
+		var html = "<div id="+handle+">"+
+				"<h1>" + e[1] + "</h1>"+
+				"<a href='>"+ e[2] + "'>link</a>" +
+				"<p>"+e[3]+"</p>"+
+				"<ul class='team'>" + "</ul>"+
+			"</div>";
+		$("#horizontalTab").append(html);
+		
+//		var team;
+//		e[4].forEach(function(member){
+//			team.append("<li>"+member+"</li>");
+//		});
+//		
+//		$("#horizontalTab").find(".team").append(team);
+	});
+</script>
+
+    <div id="horizontalTab"><ul></ul></div>
+
+    <p class="info"></p>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var $tabs = $('#horizontalTab');
+            $tabs.responsiveTabs({
+                rotate: false,
+                startCollapsed: 'accordion',
+                collapsible: 'accordion',
+                setHash: true,
+                activate: function(e, tab) {
+                    $('.info').html('Tab <strong>' + tab.id + '</strong> activated!');
+                },
+                activateState: function(e, state) {
+                    //console.log(state);
+                    $('.info').html('Switched from <strong>' + state.oldState + '</strong> state to <strong>' + state.newState + '</strong> state!');
+                }
+            });
+        });
+    </script>
