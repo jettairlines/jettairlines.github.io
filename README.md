@@ -1,33 +1,8 @@
 # [jettairlines.github.io]
 My github page
 
-**WARNING: This is not devpost, but I shall document here anyway just becasue I can.**
+**Currently underrenovation, where I finally decide to code my own website(at least for frontend)**
 
-[jettairlines.github.io] is a product of my curiosity in parallax scrolling & vector art.
-
-### Version
-**v2.0**
-- Mostly dumped bootstrap (recude HTML)
-- Dynamically added Skrollr data attributes
-- New & better vector art
-- Took out most text, less responsive but prettier
-
-### What I Learned
-
-
-- [SkrollrJS]
-- SaSS/SCSS
-- Sketch 3 for art & web design
-- gitignore & markdown & lisencing
-
-### TODOs
-- more stunning header
-- better allocated element positions
-- pause scroll to finish animation
-- animate rainbow
-- ditch bootstrap
-- swap all img w/ svg
-- return to responsive text(?)
 
 License
 ----
