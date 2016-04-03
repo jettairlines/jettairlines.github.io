@@ -12,7 +12,9 @@
 	<!-- CSS -->
 	<link href="css/normalize.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/responsive-tabs.css" />
+	
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/colorbox.css" rel="stylesheet">
 
 	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -28,8 +30,8 @@
 				<h1>Jett Airlines</h1>
 				<h3>Student | Developer | Designer</h3>
 				<p>Hi, I'm Jett. I'd like to think I'm pretty cool.<br>I love pretty and intuitive interfaces, designing random stuff, and making sense out of messes such as people's daily lives.</p>
-				<button>Flight Map</button>
-				<button>PDF Resume</button>
+				<a href="flightmap/">Flight Map</a>
+				<a>PDF Resume</a>
 			</div>
 			<div id="sprite"><img src="assets/sprite.png" alt="Jett Wang sprite"></div>
 		</div>
@@ -52,6 +54,7 @@
 	</div>
 	
 	<!-- More js -->
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
 	<script src="js/jquery.responsiveTabs.min.js"></script>
 	<script type="text/javascript">
@@ -64,25 +67,30 @@
 		$('#responsiveTabsDemo').responsiveTabs({
 			startCollapsed: 'accordion'
 		});
+		
+		
 	</script>
-	
 	
 	
 	<script type="text/javascript">
 		function loadFluid(tab){
 			var dir = "assets/"+tab+"/";
 			var fileextensions = [".png",".jpg",".gif"];
+			//$(".group1").colorbox({rel:'group1'});
+			
 			$.ajax({
 				url: dir,
 				success: function (data) {
 					$.each(fileextensions,function(i){
 						$(data).find("a:contains(" + fileextensions[i] + ")").each(function () {
-							var filename = this.href.replace(window.location.host, "").replace("http://", "");
-							$(".fluid-wrapper").append("<div class='fluid-panel'><img class='fluid-content' src='" + filename + "'></div>");
+							var ref = this.href.replace(window.location.host, "").replace("http://", "");
+							$(".fluid-wrapper").append("<div class='fluid-panel'><a class='group1' title=''  href='"+ref+"'><img class='fluid-content' src='" + ref + "'></a></div>");
 						});
 					});
 				}
 			});
+			
+				
 		}
 	</script>
 	

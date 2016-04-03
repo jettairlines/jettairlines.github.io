@@ -2,7 +2,8 @@ h1, h2, h3, h4, h5, p {
   margin: 0; }
 
 h1, h2, h3, h4, h5, p, button, a {
-  color: inherit; }
+  color: inherit;
+  text-decoration: none; }
 
 img {
   width: 100%; }
@@ -13,6 +14,7 @@ img {
   background-color: cadetblue;
   color: white; }
   #splash #title {
+    padding: 0 5% 0 5%;
     height: 90vh;
     display: flex;
     flex-wrap: wrap-reverse;
@@ -23,16 +25,17 @@ img {
       max-width: 600px; }
       #splash #title #caption h1 {
         font-size: 5em; }
-      #splash #title #caption button {
+      #splash #title #caption > a {
         float: left;
+        text-align: center;
         width: 40%;
         padding: 2%;
         margin: 2%;
         background-color: transparent;
         border: 1px solid white;
-        border-radius: 5%; }
+        border-radius: 5px; }
         @media only screen and (max-width: 750px) {
-          #splash #title #caption button {
+          #splash #title #caption > a {
             clear: both;
             width: 80%; } }
     #splash #title #sprite {
@@ -66,7 +69,8 @@ img {
           text-decoration: none; }
       #splash nav ul .active {
         background-color: white;
-        color: black; }
+        color: black;
+        border-radius: 5px 5px 0 0; }
 
 .fluid-wrapper {
   height: 90vh;
@@ -111,7 +115,6 @@ img {
     display: inline-block;
     text-decoration: none; }
   .r-tabs .r-tabs-nav .r-tabs-state-active {
-    color: #00c5ad;
     background-color: darkgrey; }
   .r-tabs .r-tabs-panel {
     background-color: white; }
