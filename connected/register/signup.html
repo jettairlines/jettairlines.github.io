@@ -1,0 +1,66 @@
+<h4>Sign Up</h4>
+<p>Welcome to Connected! Please tell us a few things about yourself.</p>
+
+<form name="register">
+  <div>
+    <label for=workEmail>Work Email</label>
+    <input type="text" name="workEmail"/>
+  </div>
+
+  <div>
+    <label for=password>Password</label>
+    <input type="password" name="password"/>
+  </div>
+    
+  <div>
+    <label for=conPassword>Confirm Password</label>
+    <input type="password" name="conPassword"/>
+  </div>
+<hr style="border-top: 2px dashed #607D8B;">
+    
+  <div>
+    <label for=passion>What would you like to teach?</label>
+    <input name="passion" list="suggestions"/>
+    <datalist id="suggestions"></datalist>
+  </div>
+
+  <div>
+    <label for=availability>When do you have time in the next two months?</label>
+    <div id="calendarDemo"></div>
+  </div>
+
+  <div>
+    <label for=zipcode>What is your zipcode?</label>
+    <input type="text" name="zipcode"/>
+  </div>
+
+  <div>
+    <label for=extra>Link to your LinkedIn, resume, or website for the school to lean about you!</label>
+    <input type="text" name="extra"/>
+  </div>
+
+    <button type="button" id="toSignup3">Register</button>
+
+</form>
+
+<script type="text/javascript">
+    $("#calendarDemo").multiDatesPicker({
+	   beforeShowDay: $.datepicker.noWeekends,
+        minDate: 0,
+	   maxDate: 60
+    });
+    
+    $("#toSignup3").click(function(){
+        $("#left").load("done.html");
+        $("#right img").replaceWith(makeImg("mail"));
+    });
+    
+  var sugg = ['Computers', 'Economics', 'Horticulture', 'Finance', 'Geology', 'Chemistry', 'Design']
+
+  var options = '';
+
+  for(var i = 0; i < sugg.length; i++)
+    options += '<option value="'+sugg[i]+'" />';
+
+  document.getElementById("suggestions").innerHTML = options;
+</script>

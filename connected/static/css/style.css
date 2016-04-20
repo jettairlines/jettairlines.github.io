@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+h4 {
+  font-weight: 700; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.brand, nav .logos span {
+  font-family: AdobeGothicStd-Bold;
+  color: inherit;
+  transition: all 0.1s ease; }
+
+a, a:hover {
+  text-decoration: none;
+  color: #607D8B; }
+
+nav {
+  text-transform: capitalize;
+  color: black;
+  height: 8vh;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 0 3% 0 5%; }
+  nav .logos {
+    display: flex;
+    align-items: center; }
+    nav .logos img {
+      height: 5.5vh; }
+    nav .logos span {
+      padding-left: 5%; }
+  nav ul {
+    text-align: right;
+    width: 100%;
+    margin: 0; }
+    nav ul li {
+      display: inline;
+      list-style-type: none; }
+      nav ul li a {
+        padding: 0 3% 0 3%;
+        text-decoration: none;
+        color: inherit; }
+
+nav.min {
+  justify-content: center; }
+
+.splash {
+  position: relative; }
+  .splash .caption {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .splash .caption a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 1% 3% 1% 3%;
+      border: 1px white solid;
+      border-radius: 2px; }
+      .splash .caption a:hover {
+        color: #B3E5FC;
+        border-color: #B3E5FC;
+        transition: all 0.1s ease; }
+  .splash .hero {
+    width: 100%;
+    height: 92vh;
+    background: url("/static/img/splash.jpeg");
+    background-size: cover; }
+    .splash .hero:before {
+      content: '';
+      height: 92vh;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to top, #607D8B, rgba(0, 0, 0, 0.2)); }
+
+#view {
+  position: relative; }
+  #view #left {
+    position: absolute;
+    padding: 5%;
+    margin-top: 10%;
+    padding-left: 20%;
+    left: 0;
+    width: 55%;
+    background-color: #B3E5FC;
+    border-radius: 0 5px 5px 0; }
+    #view #left button {
+      background: #607D8B;
+      border-radius: 2px;
+      color: white;
+      padding: 2% 5% 2% 5%;
+      border: 0;
+      float: right;
+      clear: both; }
+  #view #right {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    margin-top: 10%;
+    padding: 5%; }
+    #view #right img {
+      width: 100%; }
+  #view form {
+    margin-left: 10%; }
+    #view form > div {
+      margin: 5% 0 5%; }
+    #view form input {
+      width: 100%;
+      padding: 3%;
+      border-radius: 5px;
+      border: 0; }
+  #view .ui-datepicker-inline {
+    color: #aaa; }
+    #view .ui-datepicker-inline .ui-datepicker-header {
+      border-radius: 5px 5px 0 0;
+      padding: 5%;
+      background: #D8D8D8;
+      display: flex;
+      justify-content: space-between;
+      color: black; }
+      #view .ui-datepicker-inline .ui-datepicker-header a:nth-child(2) {
+        order: 2; }
+    #view .ui-datepicker-inline .ui-datepicker-calendar {
+      border-radius: 0 0 5px 5px;
+      text-align: center;
+      width: 100%;
+      background: #fafafa;
+      padding: 5%; }
+      #view .ui-datepicker-inline .ui-datepicker-calendar th, #view .ui-datepicker-inline .ui-datepicker-calendar td {
+        width: 14.28%; }
+      #view .ui-datepicker-inline .ui-datepicker-calendar th {
+        color: #000; }
+      #view .ui-datepicker-inline .ui-datepicker-calendar a {
+        display: block;
+        color: black;
+        border-radius: 8px;
+        padding: 5%; }
+      #view .ui-datepicker-inline .ui-datepicker-calendar .ui-state-highlight a {
+        background: #607D8B;
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */

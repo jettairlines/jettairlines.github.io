@@ -1,0 +1,40 @@
+<div>
+    <h4>Sign Up/Sign In</h4>
+    <p>Welcome to Connected! Please sign in.</p>
+
+
+    <form name="signIn">
+      <div>
+        <label for=workEmail>Work Email</label>
+        <input type="text" name="workEmail"/>
+      </div>
+
+      <div>
+        <label for=password>Password</label>
+        <input type="password"/>
+      </div>
+
+        <a id="toSchool" href="#">Are you a school administrator?</a>
+        <a href="#">Having trouble signing in?</a>
+
+      <div><button type='button' id="toSignup2">OK</button></div>
+
+    </form>
+</div>
+
+<style>
+    a, a:hover {text-decoration: underline;}
+    #toSchool {color: black; font-weight: 700;}
+    #toSchool:hover {color: #0288D1;}
+</style>
+
+<script>
+       $("#toSignup2").click(function(){
+            $("#left").load("signup.html");
+        });
+    
+    $("#toSchool").click(function(){
+            $("#left").load("school.html");
+            $("#right img").replaceWith(makeImg("school"));
+        });
+</script>
