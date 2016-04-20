@@ -72,7 +72,7 @@ nav.min {
   .splash .hero {
     width: 100%;
     height: 92vh;
-    background: url("/static/img/splash.jpeg");
+    background: url("/connected/static/img/splash.jpeg");
     background-size: cover; }
     .splash .hero:before {
       content: '';
