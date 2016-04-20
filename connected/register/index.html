@@ -16,7 +16,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="/connected/static/js/bootstrap.min.js"></script>
     <script>
-        $(".logos").bind('click',function(){window.location='/connected/'});
+        
         function makeImg(name){
             return "<img src='/connected/static/img/" + name + ".png'>"
         }
@@ -40,7 +40,7 @@
     <script src="/connected/static/js/jquery-ui.multidatespicker.js"></script>
     
     <script>
-        
+        $(".logos").bind('click',function(){window.location='/connected/'});
         $("#left").load("signin.html");
         $("#right").append(makeImg("teach"));
 
