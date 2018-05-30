@@ -1,304 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>JettAirlines :: Flight Map</title>
-
-	<link rel="icon" href="img/logo.png" type="image/svg+xml">
-
-	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-
-	<!-- Font -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+<html>
+  <head>
+      <title>Hello, I'm Jett Wang.</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="shortcut icon" href="src/img/jwhy.svg" type="image/vnd.microsoft.icon">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css" type="text/css">
+  <link rel="stylesheet" href="src/css/lightbox.css" type="text/css">
   </head>
   <body>
-  <div style="overflow:hidden" id="skrollr-body"
-   data-start="background:linear-gradient(top, rgb(234,226,222), rgb(199,229,109));" data-center="background:linear-gradient(top, rgb(124,201,191), rgb(43,130,173) );" data-end="background:linear-gradient(top, rgb(199,229,109),rgb(52,59,108));" style="height:100%">
-
-    <div class="container-fluid">
-        <div class="hero">
-            <div class="text-center vspread" style="height:70vh;">
-                <div class="text-uppercase">
-                    <div class="col-xs-4"><h3>student</h3></div>
-                    <div class="col-xs-4"><h3>designer</h3></div>
-                    <div class="col-xs-4"><h3>developer</h3></div>
-                </div>
-                <div class="row vcenter">
-                    <div class="col-sm-4"><h1>Jett</h1></div>
-                    <div class="col-sm-4"><img src="img/logo.svg" class="img-responsive" id='img-logo' alt="logo"></div>
-                    <div class="col-sm-4"><h1>Wang</h1></div>
-                </div>
-                <br>
-                <h1><a id="toprofile"><i class="text-negative fa fa-angle-double-down"></i></a></h1>
-            </div>
-        </div>
-    </div>
-      	<!-- path -->
-<!--
- 	<div class="path">
-		<svg xmlns="http://www.w3.org/1000/svg" version="1.1" viewBox="0 0 400 900" preserveAspectRatio="none" id="path">
-			<path style="fill:none;stroke:#333333;stroke-width:2;stroke-dasharray:6000;stroke-dashoffset:0"
-				data-center-top="stroke-dashoffset:6000;" data-bottom="stroke-dashoffset:0;"
-
-				d=""
-			/>
-		</svg>
-	</div>
--->
+      <div id="float"><a href="mailto:jettlwang@gmail.com">e m a i l m e</a></div>
+  <div id="app">
+      <div><img id="logo" src="src/img/jwhy.svg"></div>
+      <h1><span>Hello</span>, I’m <img class="inline" src="src/img/jett.png" /> Jett Wang.</h1>
+    <h2>I’m a UX <span>Designer</span> & <span>Developer</span>.</h2>
+    <p>I do web & mobile design and front end development. I have experiences in freelance, start ups & corporates. I am a motivated <span>self-starter</span> and <span>fast learner</span> who thrives on <span>complexity</span> & <span>flexiblility</span>.</p>
+    <p>Things I&rsquo;ve learned:
+    <ul>
+        <li><img class="inline" src="src/img/htmlcss.png" /> HTML-CSS / <img class="inline" src="src/img/bootstrap.png" /> BoostrapCSS / <img class="inline" src="src/img/sass.png" /> SaSS / <img class="inline" src="src/img/jquery.png" /> jQuery</li>
+        <li><img class="inline" src="src/img/sketch.png" /> Sketch / <img class="inline" src="src/img/photoshop.png" /> Photoshop / <img class="inline" src="src/img/illustrator.png" /> Illustrator / <img class="inline" src="src/img/indesign.png" /> Indesign</li>
+        <li><img class="inline" src="src/img/origami.png" /> Origami Studio / <img class="inline" src="src/img/flinto.jpg" /> Flinto / <img class="inline" src="src/img/invision.jpg" /> Invision / <img class="inline" src="src/img/marvelapp.png" /> Marvel / <img class="inline" src="src/img/pop.png" /> POP / <img class="inline" src="src/img/omni.png" /> Omnigraffle</li>
+        <li><img class="inline" src="src/img/wix.png" /> Wix / <img class="inline" src="src/img/weebly.png" /> Weebly / <img class="inline" src="src/img/webflow.jpg" /> Webflow / <img class="inline" src="src/img/squarespace.svg" /> Squarespace</li>
+    </ul>
+    <p>Currently , I am also learning:</p>
+     <ul>
+        <li><img class="inline" src="src/img/react.png" /> ReactJS / FirebaseDB / Wordpress</li>
+      </ul>
       
-  	<!-- profile -->
-  	<div class="thumb" id="profile">
-        <div class="caption">
-            <h2 class="text-uppercase text-center"><br><br>profile<a name="profile_an"></a></h2>
-        </div>
-        <div class="caption">
-            <img src="img/blnb.svg" alt="" id="blnb"/>
-        </div>
-	</div>
-
-	  <!-- education -->
-      <div id="education">
-        <h2 class="text-uppercase text-center">education</h2>
-        <img src="img/bln1.svg" alt="" class="img-responsive" id="bln1">
-        <img src="img/bln2.svg" alt="" class="img-responsive" id="bln2">
-        <img src="img/bln3.svg" alt="" class="img-responsive" id="bln3">
-      </div>
-	
-	  <!-- exp -->
-      <div id="experience">
-          <h2 class="text-uppercase text-center">experience</h2>
-          <img src="img/cld1.svg" alt="" class="cld" id="cld1" />
-          <img src="img/cld2.svg" alt="" class="cld" id="cld2" />
-          <img src="img/cld3.svg" alt="" class="cld" id="cld3" />
-          <img src="img/cld4.svg" alt="" class="cld" id="cld4" />
-          <img src="img/cld5.svg" alt="" class="cld" id="cld5" />
+    <p>I have a degree in Economics at <img class="inline" src="src/img/uiuc.png" /> University of Illinois at Urbana-Champaign, while also taking classes in Computer Science including Data Structure / UI Design & Development / Data Visualization.</p><p> I received design training through the 3-month UX Design Immersive at <img class="inline" src="src/img/ga.png" /> General Assembly in San Francisco, CA.</p>
+      
+      <p>I've interned as a designer at <br/><img class="inline" src="src/img/huawei.png" /> Huawei Mobile Technologies in Shanghai, China / a few start-ups in Palo Alto, CA<br/> and as a software engineer at <br/><img class="inline" src="src/img/emc.png" /> Dell EMC R&D in Beijing, China / <img class="inline" src="src/img/lenovo.png" /> Lenovo R&D in Beijing, China.<br/> I have also done some freelance design work.</p>
+      
+      <p>In my free time I enjoy stargazing, picnics, meditation, Chinese culture, and writing raps.</p>
+      
+      <p>Here are some examples of my work (& funs):</p>
+      <div><table><tbody>
+          <tr><td><a href="src/img/work/huawei.gif" data-lightbox="image-1" data-title="My caption"><img src="src/img/work/huawei.gif"></a></td><td><h2>Huawei Shanghai Internship</h2></td><td>I worked on a lot of high level feature design involving AI & mobile prototyping with Flinto & Origami Studio. I also conducted a few field user research tasks.</td></tr>
+         
+          <tr><td><img src="src/img/work/radial_0.gif" /></td><td><h2><a href="#">CSSA 2018 Website</a></h2></td><td>In about a school week, I redesigned the website for CSSA and coded it with <img class="inline" src="src/img/bootstrap.png" /> Bootstrap, SaSS and a simple front-end jQuery framework. I also organized a quick workshop and wrote some basic documentations to explain my apporach to the newer members of the web team.</td></tr>
           
-          <img src="img/cld-sm1.svg" alt="" class="cld-sm" id="cld-sm1" />
-          <img src="img/cld-sm2.svg" alt="" class="cld-sm" id="cld-sm2" />
-          <img src="img/cld-sm3.svg" alt="" class="cld-sm" id="cld-sm3" />
-          <img src="img/cld-sm4.svg" alt="" class="cld-sm" id="cld-sm4" />
-      </div>
+          <tr><td><img src="src/img/work/radial_0.gif" /></td><td><h2>Noofie App</h2></td><td>I designed this app as a personal project from ideas to multiple iterations of tested low to high fidelity protytopes. I even coded the main interface on iOS with Swift.</td></tr>
+          
+          <tr><td><img src="src/img/work/radial_0.gif" /></td><td><h2>Jett Airlines</h2></td><td>In about a school week, I redesigned the website for CSSA and coded it with Bootstrap, SaSS and a simple front-end jQuery framework. I also organized a quick workshop and wrote some basic documentations to explain my apporach to the newer members of the web team.</td></tr>
+          
+          <tr><td><img src="src/img/work/radial_0.gif" /></td><td><h2>TellMeAboutYourLife.com</h2></td><td>A fun game I made at a hackathon with a friend.</td></tr>
+        </tbody></table>
       
+      <p>Here's my <a href="#">resume</a>.</p></div>
+
       
-      	<!-- skills -->
-	<div class="container">
-		<div class="row skill-r"><a name="skills" />
-			<h2 class="text-uppercase text-center" id="ed-title">skills</h2>
-		</div>
-		<a id="tohashtag"><div>
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(70%);
-					-webkit-transform: translateX(70%);
-					transform: translateX(70%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet1.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">HTML/CSS</h4></div>
-			</div>
-
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(40%);
-					-webkit-transform: translateX(40%);
-					transform: translateX(40%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-6"><img src="img/jet2.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">JavaScript</h4></div>
-			</div>
-
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(70%);
-					-webkit-transform: translateX(70%);
-					transform: translateX(70%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet3.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">C/C++</h4></div>
-			</div>
-
-			<div class="skillr"><br></div>
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(50%);
-					-webkit-transform: translateX(50%);
-					transform: translateX(50%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-4"><img src="img/jet4.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">Sketch</h4></div>
-			</div>
-
-			<div class="row flex vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(70%);
-					-webkit-transform: translateX(70%);
-					transform: translateX(70%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-2"><img src="img/jet5.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">Photoshop</h4></div>
-			</div>
-
-			<div class="row vcenter skill-r">
-				<div class="col-xs-8 cld-bar">
-					<div class="row"
-					data-bottom-top="-ms-transform: translateX(40%);
-					-webkit-transform: translateX(40%);
-					transform: translateX(40%);" 
-					data-center-top="translateX(0);
-					-webkit-transform: translateX(0);
-					transform: translateX(0);"
-					>
-						<div class="col-xs-2 col-xs-offset-6"><img src="img/jet6.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-						<div class="col-xs-2"><img src="img/cldpff.svg" class="img-responsive"></div>
-					</div>
-				</div>
-				<div class="col-xs-4"><h4 class="text-center">Illustrator</h4></div>
-			</div>
-
-			<div class="row"><h5 class="text-center text-uppercase"><br>in training</h5></div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-					<div class="row">
-						<div class="col-md-3 col-xs-4"><p class="text-center">BootStrapCSS</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">SkrollrJS</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">d3JS</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">Material Design</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">Pixate Studios</p></div>
-						<div class="col-md-3 col-xs-4"><p class="text-center">Sass</p></div>
-					</div>
-				</div>
-			</div>
-		</div></a>
-	</div>
-
-<!--
-	<div id="skills">
-        <h2 class="text-uppercase text-center" id="ed-title">skills</h2>
-	</div>
--->
-      
-      <div id="hashtags">
-          <img src="img/star1.svg" />
-          <img src="img/star2.svg" />
-          <img src="img/star3.svg" />
-      </div>
-
-
-	<!-- path -->
-	<div class="relative">
-		<div class="container-fluid" style="padding-right:0">
-			<div class="row">
-				
-			</div>
-		</div>
-
-		<div id="footer">
-            <svg class="img-responsive" xmlns="http://www.w3.org/1000/svg" version="1.1" height="100%" width="80%" viewBox="0 0 1196 1468"  style="overflow:visible;">
-					    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                            <g id="rainbow" sketch:type="MSArtboardGroup" stroke-width="50">
-                                <g id="Group" sketch:type="MSLayerGroup" transform="translate(30.000000, 30.000000)">
-                                    <path d="M0,1438 C0,643.81453 521.942749,0 1165.79176,0 L1165.79176,0" id="Oval-18" stroke="#D0011B" sketch:type="MSShapeGroup"></path>
-                                    <path d="M49,1437.984 C49,669.212465 549.158828,46 1166.13601,46 L1166.13601,46" id="Oval-18" stroke="#F6A623" sketch:type="MSShapeGroup"></path>
-                                    <path d="M98,1438.00933 C98,695.18119 575.939228,93 1165.50714,93 L1165.50714,93" id="Oval-18" stroke="#F8E81C" sketch:type="MSShapeGroup"></path>
-                                    <path d="M148,1438.076 C148,721.720706 603.719629,141 1165.87828,141 L1165.87828,141" id="Oval-18" stroke="#7ED321" sketch:type="MSShapeGroup"></path>
-                                    <path d="M197,1438.14267 C197,748.260222 630.935708,189 1166.22253,189 L1166.22253,189" id="Oval-18" stroke="#50E3C2" sketch:type="MSShapeGroup"></path>
-                                    <path d="M245,1438.20933 C245,774.799737 657.151786,237 1165.56678,237 L1165.56678,237" id="Oval-18" stroke="#4990E2" sketch:type="MSShapeGroup"></path>
-                                    <path d="M294,1438.276 C294,801.339253 684.367865,285 1165.91103,285 L1165.91103,285" id="Oval-18" stroke="#BD0FE1" sketch:type="MSShapeGroup"></path>
-                                </g>
-                            </g>
-                        </g>
-				</svg>
-			<a href="http://www.jett.world">
-                <div class="thumb" id="earth">
-                    <img src="img/earth.svg" class="img-responsive">
-                    <div class="caption vcenter">
-                        <div class="text-center">
-                            <h1>Hello, World</h1>
-                            <h2>This is Jett's</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-		</div>
-	</div>
-
-
 </div>
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="js/custom.js"></script>
-	<script type="text/javascript" src="js/skrollr.min.js"></script>
-	<script type="text/javascript">
-		var s = skrollr.init({
-            constants: {
-                box : '100p'
-            }  
-        });
-        
-        $(document).ready(function(){
-             $("#toprofile").click(function() {
-                scrollToAnchor('profile_an');
-            });             
-        });
-        
-	</script>
-
-</body>
+      
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript">
+      </script>
+      <script src="src/js/lightbox.js" type="text/javascript"></script>
+  </body>
 </html>

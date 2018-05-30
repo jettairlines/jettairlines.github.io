@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+body {
+  font-family: "Open Sans", serif;
+  color: #2A2B2E; }
+  body strong {
+    font-weight: 300; }
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Condensed', 'Impact', serif; }
+
+h1 {
+  font-size: 5em;
+  font-weight: 700; }
+
+h2 {
+  color: #5A5A66; }
+
+h2, h4 {
+  font-weight: 700; }
+
+h3 {
+  font-weight: 400;
+  color: #6C809A; }
+
+.text-negative {
+  color: #aaa; }
+
+h5 {
+  font-weight: 600;
+  font-size: 1.15em; }
+
+a, a:hover {
+  color: inherit;
+  text-decoration: inherit; }
+
+.relative {
+  position: relative; }
+
+.vph, .hero {
+  height: 100vh; }
+
+.flex, .vcenter, .thumb, #profile, .hero, .vspread {
+  display: flex;
+  display: -webkit-flex; }
+
+.vcenter, .thumb, #profile, .hero {
+  align-items: center;
+  justify-content: center; }
+
+.vspread {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.canvas, #education, #experience {
+  position: relative; }
+  .canvas img, #education img, #experience img {
+    position: absolute; }
+
+.thumb, #profile {
+  position: relative; }
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
+.hero #img-logo {
+  height: 20vh; }
+
+#profile {
+  height: 80vh; }
+  #profile img {
+    height: 50vh; }
+
+#bln1 {
+  width: 45%;
+  max-width: 35em; }
+
+#bln2 {
+  width: 35%;
+  max-width: 30em; }
+
+#bln3 {
+  width: 25%;
+  max-width: 25em; }
+
+#skills img {
+  fill: #aaa; }
+
+#education {
+  height: 100vw; }
+
+#experience {
+  height: 200vw; }
+  #experience .cld {
+    width: 80%;
+    max-width: 60em; }
+  #experience .cld-sm {
+    width: 45%;
+    max-width: 30em; }
+
+#hashtags img {
+  max-width: 30%;
+  float: left;
+  clear: both; }
+
+.cld-bar {
+  overflow: hidden; }
+
+.skill-r {
+  margin-top: 3vh;
+  margin-bottom: 3vh; }
+
+#footer {
+  position: relative;
+  height: 100vh; }
+  #footer #earth, #footer svg {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  #footer svg {
+    bottom: 10%; }
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Register :: ConnectEd</title>
+	<link rel="icon" href="/connected/static/img/logo_b.svg" type="image/svg+xml">
+
+	<!-- CSS -->
+	<link rel= "stylesheet" type= "text/css" href="/connected/static/css/bootstrap.min.css">
+    <link rel= "stylesheet" type= "text/css" href="/connected/static/css/style.css">
+    
+    <!-- DO NOT TOUCH js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/connected/static/js/bootstrap.min.js"></script>
+    <script>
+        
+        function makeImg(name){
+            return "<img src='/connected/static/img/" + name + ".png'>"
+        }
+    </script>
+    <!-- endof DO NOT TOUCH js -->
+
+</head>
+<body>
+	
+    <nav class="min">
+        <div class="logos"><img src="/connected/static/img/logo_b.svg"><span>ConnectEd</span></div>
+    </nav>
+    
+    <div id="view">
+        <div id="left"></div>
+        <div id="right"></div>
+        
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="/connected/static/js/jquery-ui.multidatespicker.js"></script>
+    
+    <script>
+        $(".logos").bind('click',function(){window.location='/connected/'});
+        $("#left").load("signin.html");
+        $("#right").append(makeImg("teach"));
+
+    </script>
+    
+</body>
+</html>
