@@ -1,5 +1,6 @@
 # Sass
-.sass-cache
+sass/.sass-cache
+node_modules/
 
 # Mac OS
 .DS_Store
